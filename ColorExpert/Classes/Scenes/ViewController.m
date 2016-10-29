@@ -195,6 +195,62 @@
 #pragma mark - update
 - (void)textChanged
 {
+    // 防止溢出
+    
+    ColorFormType type = self.formSegmentedControl.selectedSegmentIndex;
+
+    switch (type) {
+        case ColorFormRGB:{
+            
+            for (UITextField *tf in self.textFieldArray) {
+                
+                if ([tf.text integerValue] > 255) {
+                    tf.text = @"255";
+                }
+            }
+            
+            break;
+        }
+        case ColorFormHex:{
+            for (int i = 0; i < self.middleTF.text.length; i++) {
+                NSCharacterSet *set = [NSCharacterSet characterSetWithCharactersInString:@"ABCDEF01234567890"];
+                unichar c = [self.middleTF.text characterAtIndex:i];
+                
+                if (![set characterIsMember:c]) {
+                    self.middleTF.text = @"";
+                }
+                
+                
+            }
+            break;
+        }
+        case ColorFormHSB:{
+            for (UITextField *tf in self.textFieldArray) {
+                
+                if ([tf.text integerValue] > 100) {
+                    tf.text = @"100";
+                }
+            }
+            break;
+        }
+        case ColorFormCMYK:{
+            for (UITextField *tf in self.textFieldArray) {
+                
+                if ([tf.text integerValue] > 100) {
+                    tf.text = @"100";
+                }
+            }
+            break;
+        }
+            
+    }
+
+    
+    [self updateColorFromTextField];
+}
+
+- (void)updateColorFromTextField
+{
     ColorFormType type = self.formSegmentedControl.selectedSegmentIndex;
     
     switch (type) {
@@ -223,8 +279,8 @@
         default:
             break;
     }
-    
     [self colorUpdated];
+
 }
 
 

@@ -368,7 +368,7 @@ static inline CGFloat toRadians (CGFloat degrees) { return degrees * M_PI/180.0f
     
     unsigned char midColor = [UIImage avarageColorOfThe8bppImageBorder:self];
     
-    [[UIColor colorWithRed:midColor/255.0 green:midColor/255.0 blue:midColor/255.0 alpha:1.0f] set];
+    [[UIColor colorWithDisplayP3Red:midColor/255.0 green:midColor/255.0 blue:midColor/255.0 alpha:1.0f] set];
     CGContextFillRect(context, CGRectInset(drawingRect, -2, -2));
     
     CGContextTranslateCTM(context, drawingRect.size.width/2, drawingRect.size.height/2);

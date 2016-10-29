@@ -11,7 +11,7 @@
 @implementation UIColor (Modify)
 - (UIColor *)invertedColor{
     NSArray *components = [self componentArray];
-    return [UIColor colorWithRed:1-[components[0] doubleValue] green:1-[components[1] doubleValue] blue:1-[components[2] doubleValue] alpha:[components[3] doubleValue]];
+    return [UIColor colorWithDisplayP3Red:1-[components[0] doubleValue] green:1-[components[1] doubleValue] blue:1-[components[2] doubleValue] alpha:[components[3] doubleValue]];
 }
 - (UIColor *)colorForTranslucency{
     CGFloat hue = 0, saturation = 0, brightness = 0, alpha = 0;

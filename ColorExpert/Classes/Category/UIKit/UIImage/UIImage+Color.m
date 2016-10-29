@@ -62,7 +62,7 @@
     CGFloat green = (CGFloat)pixelData[1] / 255.0f;
     CGFloat blue  = (CGFloat)pixelData[2] / 255.0f;
     CGFloat alpha = (CGFloat)pixelData[3] / 255.0f;
-    return [UIColor colorWithRed:red green:green blue:blue alpha:alpha];
+    return [UIColor colorWithDisplayP3Red:red green:green blue:blue alpha:alpha];
 }
 
 - (BOOL)hasAlphaChannel
