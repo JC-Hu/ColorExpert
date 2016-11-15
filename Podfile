@@ -1,9 +1,59 @@
 inhibit_all_warnings!
 
-pod 'UMengAnalytics'
-pod 'AFNetworking', '~> 2.6.3'
-pod 'Google/Analytics', '~> 1.0.0'
-pod 'Masonry'
-pod 'Wonderful'
-pod 'Google-Mobile-Ads-SDK', '~> 7.0'
-pod 'IQKeyboardManager'
+target 'ColorExpert' do
+    pod 'UMengAnalytics'
+    pod 'AFNetworking', '~> 2.6.3'
+    pod 'Masonry'
+    pod 'Wonderful'
+    pod 'Firebase/Core'
+    pod 'Firebase/AdMob'
+    pod 'IQKeyboardManager'
+end
+
+target 'ColorExpert-R2H' do
+    pod 'UMengAnalytics'
+    pod 'AFNetworking', '~> 2.6.3'
+    pod 'Masonry'
+    pod 'Wonderful'
+    pod 'Firebase/Core'
+    pod 'Firebase/AdMob'
+    pod 'IQKeyboardManager'
+end
+
+target 'ColorExpert-H2R' do
+    pod 'UMengAnalytics'
+    pod 'AFNetworking', '~> 2.6.3'
+    pod 'Masonry'
+    pod 'Wonderful'
+    pod 'Firebase/Core'
+    pod 'Firebase/AdMob'
+    pod 'IQKeyboardManager'
+end
+
+
+target 'ColorExpert-HSB' do
+    pod 'UMengAnalytics'
+    pod 'AFNetworking', '~> 2.6.3'
+    pod 'Masonry'
+    pod 'Wonderful'
+    pod 'Firebase/Core'
+    pod 'Firebase/AdMob'
+    pod 'IQKeyboardManager'
+end
+
+
+target 'ColorExpert-CMYK' do
+    pod 'UMengAnalytics'
+    pod 'AFNetworking', '~> 2.6.3'
+    pod 'Masonry'
+    pod 'Wonderful'
+    pod 'Firebase/Core'
+    pod 'Firebase/AdMob'
+    pod 'IQKeyboardManager'
+end
+
+target 'ColorExpert-Today' do
+    pod 'Masonry'
+    pod 'Wonderful'
+
+end

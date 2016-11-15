@@ -20,29 +20,38 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - Google-Mobile-Ads-SDK (7.7.0)
-  - Google/Analytics (1.0.7):
-    - Google/Core
-    - GoogleAnalytics (~> 3.12)
-  - Google/Core (1.0.7):
-    - GoogleNetworkingUtilities (~> 1.0)
-    - GoogleSymbolUtilities (~> 1.0)
-    - GoogleUtilities (~> 1.0)
-  - GoogleAnalytics (3.14.0)
-  - GoogleNetworkingUtilities (1.0.0):
-    - GoogleSymbolUtilities (~> 1.0)
-  - GoogleSymbolUtilities (1.0.3)
-  - GoogleUtilities (1.1.0):
-    - GoogleSymbolUtilities (~> 1.0.0)
-  - IQKeyboardManager (4.0.0)
-  - Masonry (0.6.4)
-  - UMengAnalytics (3.6.6)
+  - Firebase/AdMob (3.8.0):
+    - Firebase/Core
+    - Google-Mobile-Ads-SDK (= 7.13.0)
+  - Firebase/Core (3.8.0):
+    - FirebaseAnalytics (= 3.5.1)
+    - FirebaseCore (= 3.4.4)
+  - FirebaseAnalytics (3.5.1):
+    - FirebaseCore (~> 3.4)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (3.4.4):
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (1.0.8)
+  - Google-Mobile-Ads-SDK (7.13.0)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleToolboxForMac/Defines (2.1.0)
+  - GoogleToolboxForMac/NSData+zlib (2.1.0):
+    - GoogleToolboxForMac/Defines (= 2.1.0)
+  - IQKeyboardManager (4.0.7)
+  - Masonry (1.0.2)
+  - UMengAnalytics (4.1.2)
   - Wonderful (1.2.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.6.3)
-  - Google-Mobile-Ads-SDK (~> 7.0)
-  - Google/Analytics (~> 1.0.0)
+  - Firebase/AdMob
+  - Firebase/Core
   - IQKeyboardManager
   - Masonry
   - UMengAnalytics
@@ -50,15 +59,19 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  Google: 875f5a8ade86dd02e36586e4a54814843938c7f6
-  Google-Mobile-Ads-SDK: d290e523a6e2f223256abcbf8e0c778b55b1f04e
-  GoogleAnalytics: 9be1afdb8deeac4bb5f13ca7f7d3b9db2a1f43dc
-  GoogleNetworkingUtilities: 292992ab31b7b4ba32809a0e8b40e324cdfb2c0c
-  GoogleSymbolUtilities: 82ad9f93d3615244b3f4ce440f5ab2515e8b4f56
-  GoogleUtilities: 8ed9134debe11719097881711464752900668f10
-  IQKeyboardManager: b91928f7927ba55a5829b4dcf4b7a6736ac9fc22
-  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
-  UMengAnalytics: 4bf831415146b9c57cb10be65fbd43462ef8cf65
+  Firebase: fdbecadb7b5cbef2774852d4fa659b9daf11f2af
+  FirebaseAnalytics: 6e58fc9b397664369ac7617fb0ba93fab6ba7b5b
+  FirebaseCore: d0ed25f27b6f9158eccc439f1be6f92e81207e28
+  FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
+  Google-Mobile-Ads-SDK: b0cac2909229e8f13fb30e03537cdefbd7be28fa
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleToolboxForMac: 2b2596cbb7186865e98cadf2b1e262d851c2b168
+  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  UMengAnalytics: 8d95752776c32f5b954d40edc7f23944882a7c14
   Wonderful: 8f8737eb8d2c32264110e91659095cb5c8bff223
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 57b19acb1c7766a373afe416524b9d7b3a859fcc
+
+COCOAPODS: 1.1.1

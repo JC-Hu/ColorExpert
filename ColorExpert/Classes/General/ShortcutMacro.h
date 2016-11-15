@@ -11,7 +11,7 @@
 
 
 // RGBA Color
-#define RGBACOLOR(r,g,b,a) [UIColor colorWithDisplayP3Red:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
 
 // String
 

@@ -18,7 +18,6 @@
 		04313C9E1CB17565006C1792 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D5A72C1CA7C72A0053FCF4 /* CoreTelephony.framework */; };
 		04313C9F1CB17565006C1792 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D5A72A1CA7C7230053FCF4 /* CoreLocation.framework */; };
 		04313CA01CB17565006C1792 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D5A7281CA7C7180053FCF4 /* libsqlite3.0.tbd */; };
-		04313CA11CB17565006C1792 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BD9147A71F00738A629E54 /* libPods.a */; };
 		04313CA41CB17565006C1792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C22C371C8DA00200E26DFA /* LaunchScreen.storyboard */; };
 		04313CA61CB17565006C1792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C22C351C8DA00200E26DFA /* Assets.xcassets */; };
 		04313CA81CB17565006C1792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C22C321C8DA00200E26DFA /* Main.storyboard */; };
@@ -33,7 +32,6 @@
 		04313D1A1CB175C9006C1792 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D5A72C1CA7C72A0053FCF4 /* CoreTelephony.framework */; };
 		04313D1B1CB175C9006C1792 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D5A72A1CA7C7230053FCF4 /* CoreLocation.framework */; };
 		04313D1C1CB175C9006C1792 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D5A7281CA7C7180053FCF4 /* libsqlite3.0.tbd */; };
-		04313D1D1CB175C9006C1792 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BD9147A71F00738A629E54 /* libPods.a */; };
 		04313D201CB175C9006C1792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C22C371C8DA00200E26DFA /* LaunchScreen.storyboard */; };
 		04313D221CB175C9006C1792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C22C351C8DA00200E26DFA /* Assets.xcassets */; };
 		04313D241CB175C9006C1792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C22C321C8DA00200E26DFA /* Main.storyboard */; };
@@ -54,7 +52,6 @@
 		0482A4221CB1768B00A5FF8D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D5A72C1CA7C72A0053FCF4 /* CoreTelephony.framework */; };
 		0482A4231CB1768B00A5FF8D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D5A72A1CA7C7230053FCF4 /* CoreLocation.framework */; };
 		0482A4241CB1768B00A5FF8D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D5A7281CA7C7180053FCF4 /* libsqlite3.0.tbd */; };
-		0482A4251CB1768B00A5FF8D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BD9147A71F00738A629E54 /* libPods.a */; };
 		0482A4281CB1768B00A5FF8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C22C371C8DA00200E26DFA /* LaunchScreen.storyboard */; };
 		0482A42A1CB1768B00A5FF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C22C351C8DA00200E26DFA /* Assets.xcassets */; };
 		0482A42C1CB1768B00A5FF8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C22C321C8DA00200E26DFA /* Main.storyboard */; };
@@ -69,7 +66,6 @@
 		0482A49E1CB176A300A5FF8D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D5A72C1CA7C72A0053FCF4 /* CoreTelephony.framework */; };
 		0482A49F1CB176A300A5FF8D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D5A72A1CA7C7230053FCF4 /* CoreLocation.framework */; };
 		0482A4A01CB176A300A5FF8D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D5A7281CA7C7180053FCF4 /* libsqlite3.0.tbd */; };
-		0482A4A11CB176A300A5FF8D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BD9147A71F00738A629E54 /* libPods.a */; };
 		0482A4A41CB176A300A5FF8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C22C371C8DA00200E26DFA /* LaunchScreen.storyboard */; };
 		0482A4A61CB176A300A5FF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C22C351C8DA00200E26DFA /* Assets.xcassets */; };
 		0482A4A81CB176A300A5FF8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C22C321C8DA00200E26DFA /* Main.storyboard */; };
@@ -84,7 +80,6 @@
 		0482A51A1CB176BC00A5FF8D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D5A72C1CA7C72A0053FCF4 /* CoreTelephony.framework */; };
 		0482A51B1CB176BC00A5FF8D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D5A72A1CA7C7230053FCF4 /* CoreLocation.framework */; };
 		0482A51C1CB176BC00A5FF8D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D5A7281CA7C7180053FCF4 /* libsqlite3.0.tbd */; };
-		0482A51D1CB176BC00A5FF8D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BD9147A71F00738A629E54 /* libPods.a */; };
 		0482A5201CB176BC00A5FF8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C22C371C8DA00200E26DFA /* LaunchScreen.storyboard */; };
 		0482A5221CB176BC00A5FF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C22C351C8DA00200E26DFA /* Assets.xcassets */; };
 		0482A5241CB176BC00A5FF8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C22C321C8DA00200E26DFA /* Main.storyboard */; };
@@ -570,11 +565,17 @@
 		04F409DA1D22883C0085B2EE /* ColorHSBInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975911CE5DE6B00078BAC /* ColorHSBInfo.m */; };
 		04F409DB1D2288450085B2EE /* ColorHexInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9758F1CE5DE6B00078BAC /* ColorHexInfo.m */; };
 		04F409DC1D22884A0085B2EE /* ColorRGBInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975931CE5DE6B00078BAC /* ColorRGBInfo.m */; };
+		141154A35FA88C12FCA4B6D0 /* libPods-ColorExpert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1165462637A9F496355B58 /* libPods-ColorExpert.a */; };
+		736F2124F15E2A7A7DD44212 /* libPods-ColorExpert-HSB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B06D20679A0518421988AA1 /* libPods-ColorExpert-HSB.a */; };
+		7C310D29EA4536CFD53944E6 /* libPods-ColorExpert-CMYK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFCD44FF9B1769D56FA9BE3 /* libPods-ColorExpert-CMYK.a */; };
+		8276D975C553BDF804BE4814 /* libPods-ColorExpert-R2H.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0C0257CBAAAF1DF4D7A28A /* libPods-ColorExpert-R2H.a */; };
+		936686AF233E035F5C399834 /* libPods-ColorExpert-H2R.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D34C5D03D6A8E2CA43B2BD /* libPods-ColorExpert-H2R.a */; };
 		9D9031F21DC1A66000F23017 /* ColorExpert copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D9031ED1DC1A66000F23017 /* ColorExpert copy-Info.plist */; };
 		9D9031F31DC1A66000F23017 /* ColorExpert copy2-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D9031EE1DC1A66000F23017 /* ColorExpert copy2-Info.plist */; };
 		9D9031F41DC1A66000F23017 /* ColorExpert-CMYK copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D9031EF1DC1A66000F23017 /* ColorExpert-CMYK copy-Info.plist */; };
 		9D9031F51DC1A66000F23017 /* ColorExpert-H2R copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D9031F01DC1A66000F23017 /* ColorExpert-H2R copy-Info.plist */; };
 		9D9031F61DC1A66000F23017 /* ColorExpert-R2H copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D9031F11DC1A66000F23017 /* ColorExpert-R2H copy-Info.plist */; };
+		AAE01D7F50A233415B81E8AD /* libPods-ColorExpert-Today.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A07F1B2837C66F4F3BAF4304 /* libPods-ColorExpert-Today.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -642,6 +643,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		02E59A6935CC06EACD408013 /* Pods-ColorExpert-R2H.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorExpert-R2H.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorExpert-R2H/Pods-ColorExpert-R2H.debug.xcconfig"; sourceTree = "<group>"; };
 		0422CAB61D40C25A00A697DE /* ColorExpert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ColorExpert.entitlements; sourceTree = "<group>"; };
 		0422CAB71D40C30200A697DE /* ColorExpert-Today.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ColorExpert-Today.entitlements"; sourceTree = "<group>"; };
 		04313CB11CB17565006C1792 /* ColorExpert-R2H.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ColorExpert-R2H.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -870,14 +872,28 @@
 		04F14B881CC9301300A677A5 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		04F14B8B1CC9301300A677A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		04F14B8D1CC9301300A677A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5652F06048E2C28987D9638A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		252FB8A1377900EDF06497DF /* Pods-ColorExpert-CMYK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorExpert-CMYK.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorExpert-CMYK/Pods-ColorExpert-CMYK.release.xcconfig"; sourceTree = "<group>"; };
+		26E0255F1FA4EA6BD88CD0FB /* Pods-ColorExpert-Today.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorExpert-Today.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorExpert-Today/Pods-ColorExpert-Today.release.xcconfig"; sourceTree = "<group>"; };
+		38CF6FFFC340106781F0E105 /* Pods-ColorExpert-H2R.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorExpert-H2R.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorExpert-H2R/Pods-ColorExpert-H2R.debug.xcconfig"; sourceTree = "<group>"; };
+		3E0C0257CBAAAF1DF4D7A28A /* libPods-ColorExpert-R2H.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorExpert-R2H.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DF3CDEB2AAEACA18B4FD0B /* Pods-ColorExpert-CMYK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorExpert-CMYK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorExpert-CMYK/Pods-ColorExpert-CMYK.debug.xcconfig"; sourceTree = "<group>"; };
+		6C663E66765A858248621CE9 /* Pods-ColorExpert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorExpert.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorExpert/Pods-ColorExpert.debug.xcconfig"; sourceTree = "<group>"; };
+		7AFCD44FF9B1769D56FA9BE3 /* libPods-ColorExpert-CMYK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorExpert-CMYK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B06D20679A0518421988AA1 /* libPods-ColorExpert-HSB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorExpert-HSB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		974C9310D00DC24205D9C07B /* Pods-ColorExpert-HSB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorExpert-HSB.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorExpert-HSB/Pods-ColorExpert-HSB.release.xcconfig"; sourceTree = "<group>"; };
+		9AA0ADF04CB263EC71D972B8 /* Pods-ColorExpert-HSB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorExpert-HSB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorExpert-HSB/Pods-ColorExpert-HSB.debug.xcconfig"; sourceTree = "<group>"; };
 		9D9031ED1DC1A66000F23017 /* ColorExpert copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ColorExpert copy-Info.plist"; sourceTree = "<group>"; };
 		9D9031EE1DC1A66000F23017 /* ColorExpert copy2-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ColorExpert copy2-Info.plist"; sourceTree = "<group>"; };
 		9D9031EF1DC1A66000F23017 /* ColorExpert-CMYK copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ColorExpert-CMYK copy-Info.plist"; sourceTree = "<group>"; };
 		9D9031F01DC1A66000F23017 /* ColorExpert-H2R copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ColorExpert-H2R copy-Info.plist"; sourceTree = "<group>"; };
 		9D9031F11DC1A66000F23017 /* ColorExpert-R2H copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ColorExpert-R2H copy-Info.plist"; sourceTree = "<group>"; };
-		A9BD9147A71F00738A629E54 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB67A3E9C818A3DD1D02E5F1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A07F1B2837C66F4F3BAF4304 /* libPods-ColorExpert-Today.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorExpert-Today.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1AE4C12C6CE4C0E1E5D4B75 /* Pods-ColorExpert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorExpert.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorExpert/Pods-ColorExpert.release.xcconfig"; sourceTree = "<group>"; };
+		B73BECE39B6BB4A59E452615 /* Pods-ColorExpert-H2R.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorExpert-H2R.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorExpert-H2R/Pods-ColorExpert-H2R.release.xcconfig"; sourceTree = "<group>"; };
+		BBBA95783E406A9643DBE210 /* Pods-ColorExpert-Today.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorExpert-Today.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorExpert-Today/Pods-ColorExpert-Today.debug.xcconfig"; sourceTree = "<group>"; };
+		C0D34C5D03D6A8E2CA43B2BD /* libPods-ColorExpert-H2R.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorExpert-H2R.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1165462637A9F496355B58 /* libPods-ColorExpert.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorExpert.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF8383EB2D7D94099173F03 /* Pods-ColorExpert-R2H.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorExpert-R2H.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorExpert-R2H/Pods-ColorExpert-R2H.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -894,7 +910,7 @@
 				04313C9E1CB17565006C1792 /* CoreTelephony.framework in Frameworks */,
 				04313C9F1CB17565006C1792 /* CoreLocation.framework in Frameworks */,
 				04313CA01CB17565006C1792 /* libsqlite3.0.tbd in Frameworks */,
-				04313CA11CB17565006C1792 /* libPods.a in Frameworks */,
+				8276D975C553BDF804BE4814 /* libPods-ColorExpert-R2H.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -911,7 +927,7 @@
 				04313D1A1CB175C9006C1792 /* CoreTelephony.framework in Frameworks */,
 				04313D1B1CB175C9006C1792 /* CoreLocation.framework in Frameworks */,
 				04313D1C1CB175C9006C1792 /* libsqlite3.0.tbd in Frameworks */,
-				04313D1D1CB175C9006C1792 /* libPods.a in Frameworks */,
+				141154A35FA88C12FCA4B6D0 /* libPods-ColorExpert.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -928,7 +944,7 @@
 				0482A4221CB1768B00A5FF8D /* CoreTelephony.framework in Frameworks */,
 				0482A4231CB1768B00A5FF8D /* CoreLocation.framework in Frameworks */,
 				0482A4241CB1768B00A5FF8D /* libsqlite3.0.tbd in Frameworks */,
-				0482A4251CB1768B00A5FF8D /* libPods.a in Frameworks */,
+				936686AF233E035F5C399834 /* libPods-ColorExpert-H2R.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -945,7 +961,7 @@
 				0482A49E1CB176A300A5FF8D /* CoreTelephony.framework in Frameworks */,
 				0482A49F1CB176A300A5FF8D /* CoreLocation.framework in Frameworks */,
 				0482A4A01CB176A300A5FF8D /* libsqlite3.0.tbd in Frameworks */,
-				0482A4A11CB176A300A5FF8D /* libPods.a in Frameworks */,
+				7C310D29EA4536CFD53944E6 /* libPods-ColorExpert-CMYK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -963,7 +979,7 @@
 				0482A51A1CB176BC00A5FF8D /* CoreTelephony.framework in Frameworks */,
 				0482A51B1CB176BC00A5FF8D /* CoreLocation.framework in Frameworks */,
 				0482A51C1CB176BC00A5FF8D /* libsqlite3.0.tbd in Frameworks */,
-				0482A51D1CB176BC00A5FF8D /* libPods.a in Frameworks */,
+				736F2124F15E2A7A7DD44212 /* libPods-ColorExpert-HSB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -972,6 +988,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F14B851CC9301300A677A5 /* NotificationCenter.framework in Frameworks */,
+				AAE01D7F50A233415B81E8AD /* libPods-ColorExpert-Today.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -986,7 +1003,7 @@
 				04F14B861CC9301300A677A5 /* ColorExpert-Today */,
 				04CDE4DC1C903D730095356E /* Frameworks */,
 				04C22C271C8DA00200E26DFA /* Products */,
-				79713F6514792B2E4C005514 /* Pods */,
+				A0BDD8C2D9B9C4469DEFA230 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1049,7 +1066,12 @@
 				04D5A72A1CA7C7230053FCF4 /* CoreLocation.framework */,
 				04D5A7281CA7C7180053FCF4 /* libsqlite3.0.tbd */,
 				04CDE4DD1C903D730095356E /* NotificationCenter.framework */,
-				A9BD9147A71F00738A629E54 /* libPods.a */,
+				DC1165462637A9F496355B58 /* libPods-ColorExpert.a */,
+				7AFCD44FF9B1769D56FA9BE3 /* libPods-ColorExpert-CMYK.a */,
+				C0D34C5D03D6A8E2CA43B2BD /* libPods-ColorExpert-H2R.a */,
+				7B06D20679A0518421988AA1 /* libPods-ColorExpert-HSB.a */,
+				3E0C0257CBAAAF1DF4D7A28A /* libPods-ColorExpert-R2H.a */,
+				A07F1B2837C66F4F3BAF4304 /* libPods-ColorExpert-Today.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1747,11 +1769,21 @@
 			path = "ColorExpert-Today";
 			sourceTree = "<group>";
 		};
-		79713F6514792B2E4C005514 /* Pods */ = {
+		A0BDD8C2D9B9C4469DEFA230 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB67A3E9C818A3DD1D02E5F1 /* Pods.debug.xcconfig */,
-				5652F06048E2C28987D9638A /* Pods.release.xcconfig */,
+				6C663E66765A858248621CE9 /* Pods-ColorExpert.debug.xcconfig */,
+				A1AE4C12C6CE4C0E1E5D4B75 /* Pods-ColorExpert.release.xcconfig */,
+				66DF3CDEB2AAEACA18B4FD0B /* Pods-ColorExpert-CMYK.debug.xcconfig */,
+				252FB8A1377900EDF06497DF /* Pods-ColorExpert-CMYK.release.xcconfig */,
+				38CF6FFFC340106781F0E105 /* Pods-ColorExpert-H2R.debug.xcconfig */,
+				B73BECE39B6BB4A59E452615 /* Pods-ColorExpert-H2R.release.xcconfig */,
+				9AA0ADF04CB263EC71D972B8 /* Pods-ColorExpert-HSB.debug.xcconfig */,
+				974C9310D00DC24205D9C07B /* Pods-ColorExpert-HSB.release.xcconfig */,
+				02E59A6935CC06EACD408013 /* Pods-ColorExpert-R2H.debug.xcconfig */,
+				FDF8383EB2D7D94099173F03 /* Pods-ColorExpert-R2H.release.xcconfig */,
+				BBBA95783E406A9643DBE210 /* Pods-ColorExpert-Today.debug.xcconfig */,
+				26E0255F1FA4EA6BD88CD0FB /* Pods-ColorExpert-Today.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1763,13 +1795,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04313CAE1CB17565006C1792 /* Build configuration list for PBXNativeTarget "ColorExpert-R2H" */;
 			buildPhases = (
-				04313C3A1CB17565006C1792 /* Check Pods Manifest.lock */,
+				B33AD82F979294F6FE0059EC /* [CP] Check Pods Manifest.lock */,
 				04313C3B1CB17565006C1792 /* Sources */,
 				04313C971CB17565006C1792 /* Frameworks */,
 				04313CA21CB17565006C1792 /* Resources */,
 				04313CAA1CB17565006C1792 /* Embed App Extensions */,
-				04313CAC1CB17565006C1792 /* Embed Pods Frameworks */,
-				04313CAD1CB17565006C1792 /* Copy Pods Resources */,
+				F472A4D37C5B9C0C399D1FA3 /* [CP] Embed Pods Frameworks */,
+				D0D6F0CF2CC01AB0B5E92EF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1784,13 +1816,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04313D2A1CB175C9006C1792 /* Build configuration list for PBXNativeTarget "ColorExpert" */;
 			buildPhases = (
-				04313CB61CB175C9006C1792 /* Check Pods Manifest.lock */,
+				2FC6B12C5C79080E65262160 /* [CP] Check Pods Manifest.lock */,
 				04313CB71CB175C9006C1792 /* Sources */,
 				04313D131CB175C9006C1792 /* Frameworks */,
 				04313D1E1CB175C9006C1792 /* Resources */,
 				04313D261CB175C9006C1792 /* Embed App Extensions */,
-				04313D281CB175C9006C1792 /* Embed Pods Frameworks */,
-				04313D291CB175C9006C1792 /* Copy Pods Resources */,
+				51A602FCF632848C0A7EFE18 /* [CP] Embed Pods Frameworks */,
+				5F62514308B4BBAFC8249AF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1806,13 +1838,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0482A4321CB1768B00A5FF8D /* Build configuration list for PBXNativeTarget "ColorExpert-H2R" */;
 			buildPhases = (
-				0482A3BE1CB1768B00A5FF8D /* Check Pods Manifest.lock */,
+				75833DFB6849AC7566837EC7 /* [CP] Check Pods Manifest.lock */,
 				0482A3BF1CB1768B00A5FF8D /* Sources */,
 				0482A41B1CB1768B00A5FF8D /* Frameworks */,
 				0482A4261CB1768B00A5FF8D /* Resources */,
 				0482A42E1CB1768B00A5FF8D /* Embed App Extensions */,
-				0482A4301CB1768B00A5FF8D /* Embed Pods Frameworks */,
-				0482A4311CB1768B00A5FF8D /* Copy Pods Resources */,
+				5038C7A01AF613BD6DB4AD3A /* [CP] Embed Pods Frameworks */,
+				303B288531B60B8FFAB5F8EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1827,13 +1859,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0482A4AE1CB176A300A5FF8D /* Build configuration list for PBXNativeTarget "ColorExpert-CMYK" */;
 			buildPhases = (
-				0482A43A1CB176A300A5FF8D /* Check Pods Manifest.lock */,
+				BECF4A9A2006D899D1C88C02 /* [CP] Check Pods Manifest.lock */,
 				0482A43B1CB176A300A5FF8D /* Sources */,
 				0482A4971CB176A300A5FF8D /* Frameworks */,
 				0482A4A21CB176A300A5FF8D /* Resources */,
 				0482A4AA1CB176A300A5FF8D /* Embed App Extensions */,
-				0482A4AC1CB176A300A5FF8D /* Embed Pods Frameworks */,
-				0482A4AD1CB176A300A5FF8D /* Copy Pods Resources */,
+				62B90F8B0AE119D0A90D5F3D /* [CP] Embed Pods Frameworks */,
+				21B798BBB951975B3AEDDF03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1848,13 +1880,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0482A52A1CB176BC00A5FF8D /* Build configuration list for PBXNativeTarget "ColorExpert-HSB" */;
 			buildPhases = (
-				0482A4B61CB176BC00A5FF8D /* Check Pods Manifest.lock */,
+				919782B6AB03B024D15C4AC9 /* [CP] Check Pods Manifest.lock */,
 				0482A4B71CB176BC00A5FF8D /* Sources */,
 				0482A5131CB176BC00A5FF8D /* Frameworks */,
 				0482A51E1CB176BC00A5FF8D /* Resources */,
 				0482A5261CB176BC00A5FF8D /* Embed App Extensions */,
-				0482A5281CB176BC00A5FF8D /* Embed Pods Frameworks */,
-				0482A5291CB176BC00A5FF8D /* Copy Pods Resources */,
+				E9682C13814D448D508DFE8C /* [CP] Embed Pods Frameworks */,
+				FA3F17DCCFE8B5117294B5FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1869,9 +1901,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F14B931CC9301300A677A5 /* Build configuration list for PBXNativeTarget "ColorExpert-Today" */;
 			buildPhases = (
+				FBCFC2627CEF5850F81A1CF3 /* [CP] Check Pods Manifest.lock */,
 				04F14B801CC9301300A677A5 /* Sources */,
 				04F14B811CC9301300A677A5 /* Frameworks */,
 				04F14B821CC9301300A677A5 /* Resources */,
+				DE2DC97EFC9AD5074D65383A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2033,229 +2067,259 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04313C3A1CB17565006C1792 /* Check Pods Manifest.lock */ = {
+		21B798BBB951975B3AEDDF03 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-CMYK/Pods-ColorExpert-CMYK-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		04313CAC1CB17565006C1792 /* Embed Pods Frameworks */ = {
+		2FC6B12C5C79080E65262160 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		04313CAD1CB17565006C1792 /* Copy Pods Resources */ = {
+		303B288531B60B8FFAB5F8EF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-H2R/Pods-ColorExpert-H2R-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		04313CB61CB175C9006C1792 /* Check Pods Manifest.lock */ = {
+		5038C7A01AF613BD6DB4AD3A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-H2R/Pods-ColorExpert-H2R-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		04313D281CB175C9006C1792 /* Embed Pods Frameworks */ = {
+		51A602FCF632848C0A7EFE18 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert/Pods-ColorExpert-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		04313D291CB175C9006C1792 /* Copy Pods Resources */ = {
+		5F62514308B4BBAFC8249AF0 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert/Pods-ColorExpert-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0482A3BE1CB1768B00A5FF8D /* Check Pods Manifest.lock */ = {
+		62B90F8B0AE119D0A90D5F3D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-CMYK/Pods-ColorExpert-CMYK-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0482A4301CB1768B00A5FF8D /* Embed Pods Frameworks */ = {
+		75833DFB6849AC7566837EC7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		0482A4311CB1768B00A5FF8D /* Copy Pods Resources */ = {
+		919782B6AB03B024D15C4AC9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		0482A43A1CB176A300A5FF8D /* Check Pods Manifest.lock */ = {
+		B33AD82F979294F6FE0059EC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		0482A4AC1CB176A300A5FF8D /* Embed Pods Frameworks */ = {
+		BECF4A9A2006D899D1C88C02 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		0482A4AD1CB176A300A5FF8D /* Copy Pods Resources */ = {
+		D0D6F0CF2CC01AB0B5E92EF5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-R2H/Pods-ColorExpert-R2H-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0482A4B61CB176BC00A5FF8D /* Check Pods Manifest.lock */ = {
+		DE2DC97EFC9AD5074D65383A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-Today/Pods-ColorExpert-Today-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0482A5281CB176BC00A5FF8D /* Embed Pods Frameworks */ = {
+		E9682C13814D448D508DFE8C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-HSB/Pods-ColorExpert-HSB-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0482A5291CB176BC00A5FF8D /* Copy Pods Resources */ = {
+		F472A4D37C5B9C0C399D1FA3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-R2H/Pods-ColorExpert-R2H-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA3F17DCCFE8B5117294B5FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-HSB/Pods-ColorExpert-HSB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBCFC2627CEF5850F81A1CF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2816,7 +2880,7 @@
 /* Begin XCBuildConfiguration section */
 		04313CAF1CB17565006C1792 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB67A3E9C818A3DD1D02E5F1 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 02E59A6935CC06EACD408013 /* Pods-ColorExpert-R2H.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-R2H";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -2866,7 +2930,7 @@
 		};
 		04313CB01CB17565006C1792 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5652F06048E2C28987D9638A /* Pods.release.xcconfig */;
+			baseConfigurationReference = FDF8383EB2D7D94099173F03 /* Pods-ColorExpert-R2H.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-R2H";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -2916,7 +2980,7 @@
 		};
 		04313D2B1CB175C9006C1792 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB67A3E9C818A3DD1D02E5F1 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 6C663E66765A858248621CE9 /* Pods-ColorExpert.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ColorExpert/ColorExpert.entitlements;
@@ -2967,7 +3031,7 @@
 		};
 		04313D2C1CB175C9006C1792 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5652F06048E2C28987D9638A /* Pods.release.xcconfig */;
+			baseConfigurationReference = A1AE4C12C6CE4C0E1E5D4B75 /* Pods-ColorExpert.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ColorExpert/ColorExpert.entitlements;
@@ -3018,7 +3082,7 @@
 		};
 		0482A4331CB1768B00A5FF8D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB67A3E9C818A3DD1D02E5F1 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 38CF6FFFC340106781F0E105 /* Pods-ColorExpert-H2R.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-H2R";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3068,7 +3132,7 @@
 		};
 		0482A4341CB1768B00A5FF8D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5652F06048E2C28987D9638A /* Pods.release.xcconfig */;
+			baseConfigurationReference = B73BECE39B6BB4A59E452615 /* Pods-ColorExpert-H2R.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-H2R";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3118,7 +3182,7 @@
 		};
 		0482A4AF1CB176A300A5FF8D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB67A3E9C818A3DD1D02E5F1 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 66DF3CDEB2AAEACA18B4FD0B /* Pods-ColorExpert-CMYK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-CMYK";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3168,7 +3232,7 @@
 		};
 		0482A4B01CB176A300A5FF8D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5652F06048E2C28987D9638A /* Pods.release.xcconfig */;
+			baseConfigurationReference = 252FB8A1377900EDF06497DF /* Pods-ColorExpert-CMYK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-CMYK";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3218,7 +3282,7 @@
 		};
 		0482A52B1CB176BC00A5FF8D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB67A3E9C818A3DD1D02E5F1 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 9AA0ADF04CB263EC71D972B8 /* Pods-ColorExpert-HSB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-HSB";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3268,7 +3332,7 @@
 		};
 		0482A52C1CB176BC00A5FF8D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5652F06048E2C28987D9638A /* Pods.release.xcconfig */;
+			baseConfigurationReference = 974C9310D00DC24205D9C07B /* Pods-ColorExpert-HSB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-HSB";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3398,6 +3462,7 @@
 		};
 		04F14B911CC9301300A677A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBA95783E406A9643DBE210 /* Pods-ColorExpert-Today.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "ColorExpert-Today/ColorExpert-Today.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3418,6 +3483,7 @@
 		};
 		04F14B921CC9301300A677A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E0255F1FA4EA6BD88CD0FB /* Pods-ColorExpert-Today.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "ColorExpert-Today/ColorExpert-Today.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
