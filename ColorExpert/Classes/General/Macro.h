@@ -13,7 +13,7 @@
 #define kNotificationOfColorDataAdded @"colorDataAdded"
 
 // Colors
-#define kColorOfPurple [UIColor colorWithRed:72/255.0 green:0/255.0 blue:169/255.0 alpha:1]
+#define kColorOfPurple [UIColor colorWithDisplayP3Red:72/255.0 green:0/255.0 blue:169/255.0 alpha:1]
 
 
 // Userdefault Key

@@ -407,10 +407,64 @@
 
 - (void)textChanged
 {
-    [self updateColor];
+    [self textChangedNeedUpdateColor:YES];
     
 }
 
+- (void)textChangedNeedUpdateColor:(BOOL)updateColor
+{
+    // 防止溢出
+    
+    switch (self.selectedType) {
+        case ColorFormRGB:{
+            
+            for (UITextField *tf in self.componentTFArray) {
+                
+                if ([tf.text integerValue] > 255) {
+                    tf.text = @"255";
+                }
+            }
+            
+            break;
+        }
+        case ColorFormHex:{
+            for (int i = 0; i < self.middleTF.text.length; i++) {
+                NSCharacterSet *set = [NSCharacterSet characterSetWithCharactersInString:@"ABCDEF01234567890"];
+                unichar c = [self.middleTF.text characterAtIndex:i];
+                
+                if (![set characterIsMember:c]) {
+                    self.middleTF.text = @"";
+                }
+                
+                
+            }
+            break;
+        }
+        case ColorFormHSB:{
+            for (UITextField *tf in self.componentTFArray) {
+                
+                if ([tf.text integerValue] > 100) {
+                    tf.text = @"100";
+                }
+            }
+            break;
+        }
+        case ColorFormCMYK:{
+            for (UITextField *tf in self.componentTFArray) {
+                
+                if ([tf.text integerValue] > 100) {
+                    tf.text = @"100";
+                }
+            }
+            break;
+        }
+            
+    }
+    
+    if (updateColor) {
+        [self updateColor];
+    }
+}
 
 #pragma mark 格式切换
 /// 格式切换
@@ -472,8 +526,6 @@
             [self.leftTF becomeFirstResponder];
             break;
         }
-        default:
-            break;
     }
     
     

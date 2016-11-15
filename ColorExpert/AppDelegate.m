@@ -8,8 +8,8 @@
 
 #import "AppDelegate.h"
 #import "IQKeyboardManager.h"
-#import "MobClick.h"
-#import <Google/Analytics.h>
+#import <UMMobClick/MobClick.h>
+#import <FirebaseAnalytics/FirebaseAnalytics.h>
 #import "JCHUAdHelper.h"
 
 #import "ViewController.h"
@@ -81,34 +81,24 @@
 /// 设置友盟统计
 - (void)setupUMAnalytics
 {
+    UMConfigInstance.appKey =[ColorExpertHelper UMAppKey];
+    UMConfigInstance.channelId = @"App Store";
+    UMConfigInstance.eSType = E_UM_GAME; //仅适用于游戏场景，应用统计不用设置
     
-    [MobClick startWithAppkey:[ColorExpertHelper UMAppKey] reportPolicy:BATCH   channelId:@""];
+    [MobClick startWithConfigure:UMConfigInstance];//配置以上参数后调用此方法初始化SDK！
+    
     
     NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
     [MobClick setAppVersion:version];
     
     [MobClick setCrashReportEnabled:NO];
-    
 }
 
 
 /// 设置谷歌分析
 - (void)setupGoogleAnalytics
 {
-    // Configure tracker from GoogleService-Info.plist.
-    NSError *configureError;
-    [[GGLContext sharedInstance] configureWithError:&configureError];
-    //    NSAssert(!configureError, @"Error configuring Google services: %@", configureError);
-    NSLog(@"%@", configureError);
-    
-    // Optional: configure GAI options.
-    GAI *gai = [GAI sharedInstance];
-    gai.trackUncaughtExceptions = YES;  // report uncaught exceptions
-    gai.logger.logLevel = kGAILogLevelVerbose;  // remove before app release
-    
-    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
-    // Enable Advertising Features.
-    tracker.allowIDFACollection = YES;
+    [FIRApp configure];
 }
 
 
