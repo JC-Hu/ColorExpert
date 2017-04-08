@@ -62,8 +62,12 @@ static JCHUAdHelper *instance = nil;
         
         NSDate *lastDate = [NSDate dateWithTimeIntervalSince1970:interval];
         
-        NSInteger minutes = [lastDate minutesBeforeDate:[NSDate date]];
-        if (minutes < 5) {
+        NSTimeInterval ti = [[NSDate date] timeIntervalSinceDate:lastDate];
+        CGFloat minutes = (ti / 60.0);
+        
+        CGFloat minInterval = 1.2;
+
+        if (minutes < minInterval) {
             return;
         }
     }

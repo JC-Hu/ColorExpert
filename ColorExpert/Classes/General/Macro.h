@@ -23,6 +23,7 @@
 #define CLOUD_AD_UNIT_ID @"cloudAdUnitId"
 #define CLOUD_AD_SHOULD_SHOW @"cloudAdShouldShow"
 #define CLOUD_VERSION_IN_REVIEW @"versionInReview"
+#define CLOUD_AD_MIN_INTERVAL @"cloudAdMinInterval"
 
 
 #define STORE_VERSION_KEY @"storeVersionKey"
