@@ -387,7 +387,7 @@
 {
     if (!_hexAccessoryView) {
         _hexAccessoryView = [[[NSBundle mainBundle] loadNibNamed:@"TranslateInputAccessoryView" owner:nil options:nil] lastObject];
-        _hexAccessoryView.size = CGSizeMake(kWidthOfScreen, 36);
+        _hexAccessoryView.size = CGSizeMake(kWidthOfScreen, 44);
         
         __weak typeof (self)weakSelf = self;
         [self.hexAccessoryView setInputBlock:^(NSString *text) {
