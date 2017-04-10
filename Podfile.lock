@@ -39,6 +39,8 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.1.1)
   - IQKeyboardManager (4.0.9)
   - Masonry (1.0.2)
+  - SIAlertView (1.3)
+  - Toast (3.1.0)
   - UMengAnalytics (4.2.4)
   - Wonderful (1.2.1)
 
@@ -48,6 +50,8 @@ DEPENDENCIES:
   - Firebase/Core
   - IQKeyboardManager
   - Masonry
+  - SIAlertView
+  - Toast
   - UMengAnalytics
   - Wonderful
 
@@ -61,9 +65,11 @@ SPEC CHECKSUMS:
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
   IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SIAlertView: 20c794b55eaf44d888773ea51647cf8907723919
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
   UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
   Wonderful: e46da4dd601c3ae08da576e451be8f4dc740c206
 
-PODFILE CHECKSUM: 57b19acb1c7766a373afe416524b9d7b3a859fcc
+PODFILE CHECKSUM: eabd5b4672541a61acb4f469c79245693c4fa41a
 
 COCOAPODS: 1.2.0.beta.1

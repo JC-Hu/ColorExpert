@@ -8,6 +8,9 @@ target 'ColorExpert' do
     pod 'Firebase/Core'
     pod 'Firebase/AdMob'
     pod 'IQKeyboardManager'
+    pod 'Toast'
+    pod 'SIAlertView'
+    pod 'Masonry'
 end
 
 target 'ColorExpert-R2H' do
@@ -18,6 +21,9 @@ target 'ColorExpert-R2H' do
     pod 'Firebase/Core'
     pod 'Firebase/AdMob'
     pod 'IQKeyboardManager'
+    pod 'Toast'
+    pod 'SIAlertView'
+    pod 'Masonry'
 end
 
 target 'ColorExpert-H2R' do
@@ -28,6 +34,9 @@ target 'ColorExpert-H2R' do
     pod 'Firebase/Core'
     pod 'Firebase/AdMob'
     pod 'IQKeyboardManager'
+    pod 'Toast'
+    pod 'SIAlertView'
+    pod 'Masonry'
 end
 
 
@@ -39,6 +48,9 @@ target 'ColorExpert-HSB' do
     pod 'Firebase/Core'
     pod 'Firebase/AdMob'
     pod 'IQKeyboardManager'
+    pod 'Toast'
+    pod 'SIAlertView'
+    pod 'Masonry'
 end
 
 
@@ -50,6 +62,9 @@ target 'ColorExpert-CMYK' do
     pod 'Firebase/Core'
     pod 'Firebase/AdMob'
     pod 'IQKeyboardManager'
+    pod 'Toast'
+    pod 'SIAlertView'
+    pod 'Masonry'
 end
 
 target 'ColorExpert-Today' do
