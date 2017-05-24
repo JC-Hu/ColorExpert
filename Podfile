@@ -11,6 +11,7 @@ target 'ColorExpert' do
     pod 'Toast'
     pod 'SIAlertView'
     pod 'Masonry'
+    pod 'MJExtension'
 end
 
 target 'ColorExpert-R2H' do
@@ -24,6 +25,7 @@ target 'ColorExpert-R2H' do
     pod 'Toast'
     pod 'SIAlertView'
     pod 'Masonry'
+    pod 'MJExtension'
 end
 
 target 'ColorExpert-H2R' do
@@ -37,6 +39,7 @@ target 'ColorExpert-H2R' do
     pod 'Toast'
     pod 'SIAlertView'
     pod 'Masonry'
+    pod 'MJExtension'
 end
 
 
@@ -51,6 +54,7 @@ target 'ColorExpert-HSB' do
     pod 'Toast'
     pod 'SIAlertView'
     pod 'Masonry'
+    pod 'MJExtension'
 end
 
 
@@ -65,10 +69,14 @@ target 'ColorExpert-CMYK' do
     pod 'Toast'
     pod 'SIAlertView'
     pod 'Masonry'
+    pod 'MJExtension'
 end
 
 target 'ColorExpert-Today' do
     pod 'Masonry'
     pod 'Wonderful'
+    pod 'MJExtension'
+    pod 'AFNetworking', '~> 2.6.3'
+    pod 'Toast'
 
 end

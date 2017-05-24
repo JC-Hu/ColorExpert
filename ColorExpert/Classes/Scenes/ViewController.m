@@ -46,6 +46,7 @@
 
 @property (nonatomic, strong) TranslateInputAccessoryView *hexAccessoryView;
 
+@property (weak, nonatomic) IBOutlet UIButton *clearButton;
 
 @end
 
@@ -144,6 +145,17 @@
     
 }
 
+- (IBAction)clearButtonAction:(id)sender
+{
+    for (UITextField *tf in self.textFieldArray) {
+        tf.text = nil;
+    }
+    if (self.leftTF.hidden == NO) {
+        [self.leftTF becomeFirstResponder];
+    }
+}
+
+
 #pragma mark - textField count change
 - (void)changeToFourTF
 {
@@ -191,11 +203,11 @@
     self.spaceBetweenRightAndFourthTF.constant = 0;
     
 }
-
 #pragma mark - update
 - (void)textChanged
 {
     // 防止溢出
+    // 智能切换输入框
     
     ColorFormType type = self.formSegmentedControl.selectedSegmentIndex;
 
@@ -203,9 +215,12 @@
         case ColorFormRGB:{
             
             for (UITextField *tf in self.textFieldArray) {
-                
-                if ([tf.text integerValue] > 255) {
-                    tf.text = @"255";
+                [self textFieldMaxValue:tf limit:255];
+                if ([tf isFirstResponder]) {
+                    if ([self textFieldShouldAutoSwitch:tf limit:255]) {
+                        // 切换输入框
+                        [self switchToNextTextField];
+                    }
                 }
             }
             
@@ -219,34 +234,84 @@
                 if (![set characterIsMember:c]) {
                     self.middleTF.text = @"";
                 }
-                
-                
+            }
+            if (self.middleTF.text.length > 6) {
+                self.middleTF.text = [self.middleTF.text substringToIndex:6];
             }
             break;
         }
         case ColorFormHSB:{
             for (UITextField *tf in self.textFieldArray) {
-                
-                if ([tf.text integerValue] > 100) {
-                    tf.text = @"100";
+                [self textFieldMaxValue:tf limit:100];
+                if ([tf isFirstResponder]) {
+                    if ([self textFieldShouldAutoSwitch:tf limit:100]) {
+                        // 切换输入框
+                        [self switchToNextTextField];
+                    }
                 }
             }
             break;
         }
         case ColorFormCMYK:{
             for (UITextField *tf in self.textFieldArray) {
-                
-                if ([tf.text integerValue] > 100) {
-                    tf.text = @"100";
+                [self textFieldMaxValue:tf limit:100];
+                if ([tf isFirstResponder]) {
+                    if ([self textFieldShouldAutoSwitch:tf limit:100]) {
+                        // 切换输入框
+                        [self switchToNextTextField];
+                    }
                 }
             }
             break;
         }
-            
     }
 
     
     [self updateColorFromTextField];
+}
+
+- (void)textFieldMaxValue:(UITextField *)tf limit:(NSInteger)limit
+{
+    // 防止溢出
+    if ([tf.text integerValue] > limit) {
+        tf.text = [@(limit) stringValue];
+    }
+}
+
+- (BOOL)textFieldShouldAutoSwitch:(UITextField *)tf limit:(NSInteger)limit
+{
+    // 智能切换TF
+    if ([tf.text integerValue]*10 > limit) {
+        return YES;
+    }
+    return NO;
+}
+
+- (void)switchToNextTextField
+{
+    NSInteger curentIndex = -1;
+    for (UITextField *tf in self.textFieldArray) {
+        if ([tf isFirstResponder]) {
+            curentIndex = [self.textFieldArray indexOfObject:tf];
+            break;
+        }
+    }
+    
+    if (curentIndex != -1) {
+        NSInteger i = curentIndex +1;
+        while (1) {
+            if (i > self.textFieldArray.count - 1) {
+                break;
+            }
+            
+            UITextField *tf = self.textFieldArray[i];
+            if (tf.hidden == NO) {
+                [tf becomeFirstResponder];
+                break;
+            }
+            i++;
+        }
+    }
 }
 
 - (void)updateColorFromTextField

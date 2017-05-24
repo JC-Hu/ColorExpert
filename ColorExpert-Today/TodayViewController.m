@@ -14,6 +14,7 @@
 #import "ColorExpertHelper.h"
 #import "UIColor+HEX.h"
 #import "UIColor+JCHUColorInfo.h"
+#import "UIView+Toast.h"
 
 #define kTextFieldPreferWidth 48
 #define kTextFieldPreferSpace 4
@@ -157,6 +158,9 @@
 #pragma mark - InterAction
 - (void)alphabetButtonAction:(UIButton *)button
 {
+    if (self.selectedType != ColorFormHex) {
+        return;
+    }
     [self inputText:[button titleForState:UIControlStateNormal]];
 }
 
@@ -250,6 +254,8 @@
     NSString *textToPaste = [self.color stringForColorType:self.selectedType];
     
     [[UIPasteboard generalPasteboard] setString:textToPaste];
+    
+    [self.view makeToast:@"Color Info Copied" duration:1.5 position:CSToastPositionCenter];
 }
 
 - (IBAction)pasteButtonAction:(id)sender {
@@ -325,8 +331,7 @@
         
     }
     
-    
-    
+    [self.view makeToast:@"Color Info Pasted" duration:1.5 position:CSToastPositionCenter];
 }
 
 #pragma mark - Input
@@ -394,13 +399,18 @@
 
 - (void)clearText
 {
-    if (self.selectedComponentIndex < 0) {
-        self.selectedComponentIndex = 0;
+    
+    for (UITextField *tf in self.componentTFArray) {
+        tf.text = nil;
     }
     
-    UITextField *currentTF = self.componentTFArray[self.selectedComponentIndex];
-    
-    currentTF.text = nil;
+    if (self.selectedType == ColorFormHex) {
+        self.selectedComponentIndex = 1;
+        [self.middleTF becomeFirstResponder];
+    } else {
+        self.selectedComponentIndex = 0;
+        [self.leftTF becomeFirstResponder];
+    }
     
     [self textChanged];
 }
@@ -419,9 +429,12 @@
         case ColorFormRGB:{
             
             for (UITextField *tf in self.componentTFArray) {
-                
-                if ([tf.text integerValue] > 255) {
-                    tf.text = @"255";
+                [self textFieldMaxValue:tf limit:255];
+                if ([tf isFirstResponder]) {
+                    if ([self textFieldShouldAutoSwitch:tf limit:255]) {
+                        // 切换输入框
+                        [self switchToNextTextField];
+                    }
                 }
             }
             
@@ -435,25 +448,32 @@
                 if (![set characterIsMember:c]) {
                     self.middleTF.text = @"";
                 }
-                
-                
+            }
+            if (self.middleTF.text.length > 6) {
+                self.middleTF.text = [self.middleTF.text substringToIndex:6];
             }
             break;
         }
         case ColorFormHSB:{
             for (UITextField *tf in self.componentTFArray) {
-                
-                if ([tf.text integerValue] > 100) {
-                    tf.text = @"100";
+                [self textFieldMaxValue:tf limit:100];
+                if ([tf isFirstResponder]) {
+                    if ([self textFieldShouldAutoSwitch:tf limit:100]) {
+                        // 切换输入框
+                        [self switchToNextTextField];
+                    }
                 }
             }
             break;
         }
         case ColorFormCMYK:{
             for (UITextField *tf in self.componentTFArray) {
-                
-                if ([tf.text integerValue] > 100) {
-                    tf.text = @"100";
+                [self textFieldMaxValue:tf limit:100];
+                if ([tf isFirstResponder]) {
+                    if ([self textFieldShouldAutoSwitch:tf limit:100]) {
+                        // 切换输入框
+                        [self switchToNextTextField];
+                    }
                 }
             }
             break;
@@ -463,6 +483,50 @@
     
     if (updateColor) {
         [self updateColor];
+    }
+}
+
+- (void)textFieldMaxValue:(UITextField *)tf limit:(NSInteger)limit
+{
+    // 防止溢出
+    if ([tf.text integerValue] > limit) {
+        tf.text = [@(limit) stringValue];
+    }
+}
+
+- (BOOL)textFieldShouldAutoSwitch:(UITextField *)tf limit:(NSInteger)limit
+{
+    // 智能切换TF
+    if ([tf.text integerValue]*10 > limit) {
+        return YES;
+    }
+    return NO;
+}
+
+- (void)switchToNextTextField
+{
+    NSInteger curentIndex = -1;
+    for (UITextField *tf in self.componentTFArray) {
+        if ([tf isFirstResponder]) {
+            curentIndex = [self.componentTFArray indexOfObject:tf];
+            break;
+        }
+    }
+    
+    if (curentIndex != -1) {
+        NSInteger i = curentIndex +1;
+        while (1) {
+            if (i > self.componentTFArray.count - 1) {
+                break;
+            }
+            
+            UITextField *tf = self.componentTFArray[i];
+            if (tf.hidden == NO) {
+                [tf becomeFirstResponder];
+                break;
+            }
+            i++;
+        }
     }
 }
 

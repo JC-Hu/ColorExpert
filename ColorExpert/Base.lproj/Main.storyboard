@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -110,9 +110,9 @@
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="WAg-mF-WC6"/>
+                                        <exclude reference="xZ3-wi-zDz"/>
                                         <exclude reference="21A-s0-HQd"/>
                                         <exclude reference="7VL-i6-4dC"/>
-                                        <exclude reference="xZ3-wi-zDz"/>
                                     </mask>
                                 </variation>
                             </view>
@@ -136,10 +136,22 @@
                                     <action selector="formSegmentedControlChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Xfj-HJ-GVh"/>
                                 </connections>
                             </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w4S-0n-rLp">
+                                <rect key="frame" x="318.5" y="93" width="30" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="dAz-EP-w7f"/>
+                                    <constraint firstAttribute="width" constant="30" id="xfE-bH-hwD"/>
+                                </constraints>
+                                <state key="normal" image="garbage"/>
+                                <connections>
+                                    <action selector="clearButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nyy-P6-nqw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96665259665833903" green="0.96517040298274548" blue="0.97381274288560393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="XL6-NI-e16" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2nr-i2-CrV"/>
+                            <constraint firstItem="w4S-0n-rLp" firstAttribute="leading" secondItem="Qt4-qS-Un5" secondAttribute="trailing" constant="4" id="5tw-Dz-Ddh"/>
                             <constraint firstItem="jv9-VU-V9z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bqa-9K-fjt"/>
                             <constraint firstItem="XL6-NI-e16" firstAttribute="top" secondItem="GT3-nu-dSJ" secondAttribute="bottom" constant="8" id="D3J-Cr-Xdy"/>
                             <constraint firstItem="jv9-VU-V9z" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="FAN-aK-wJa"/>
@@ -156,17 +168,19 @@
                             <constraint firstItem="Qt4-qS-Un5" firstAttribute="top" secondItem="jv9-VU-V9z" secondAttribute="bottom" constant="44" id="pMn-SP-qjW"/>
                             <constraint firstItem="GT3-nu-dSJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rHN-TL-Oh1"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3Ld-xT-WBp" secondAttribute="bottom" id="rXh-p3-qtN"/>
+                            <constraint firstItem="w4S-0n-rLp" firstAttribute="centerY" secondItem="Qt4-qS-Un5" secondAttribute="centerY" id="uZ1-iA-juX"/>
                             <constraint firstItem="45z-0u-RNZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xUh-fF-B2P"/>
                             <constraint firstItem="GT3-nu-dSJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zSB-S8-dEd"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="xUh-fF-B2P"/>
                                 <exclude reference="rHN-TL-Oh1"/>
+                                <exclude reference="xUh-fF-B2P"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="clearButton" destination="w4S-0n-rLp" id="8pD-cr-AyT"/>
                         <outlet property="cmykLabel" destination="H1T-Pr-gie" id="aAW-Ml-B9y"/>
                         <outlet property="colorView" destination="45z-0u-RNZ" id="ONp-ja-rls"/>
                         <outlet property="formSegmentedControl" destination="jv9-VU-V9z" id="Dgl-UC-nKX"/>
@@ -192,5 +206,8 @@
             <point key="canvasLocation" x="225" y="418"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="garbage" width="15" height="15"/>
+    </resources>
     <color key="tintColor" red="0.29411764705882354" green="0.15686274509803921" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
