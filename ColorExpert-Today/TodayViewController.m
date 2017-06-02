@@ -196,7 +196,7 @@
         
         UITextField *nextTF = self.componentTFArray[i];
         
-        if (nextTF.hidden == NO) {
+        if (nextTF.width > 0) {
             
             self.selectedComponentIndex = i;
             [nextTF becomeFirstResponder];
@@ -378,7 +378,7 @@
             
             UITextField *nextTF = self.componentTFArray[i];
             
-            if (nextTF.hidden == NO) {
+            if (nextTF.width > 0) {
                 
                 self.selectedComponentIndex = i;
                 [nextTF becomeFirstResponder];
@@ -521,7 +521,9 @@
             }
             
             UITextField *tf = self.componentTFArray[i];
-            if (tf.hidden == NO) {
+            if (tf.width > 0) {
+                self.selectedComponentIndex = i;
+                tf.text = nil;
                 [tf becomeFirstResponder];
                 break;
             }
