@@ -101,7 +101,7 @@
         // banner
         [self requestBannerAd];
         // reward video
-        [UnityAds initialize:@"1088169" delegate:self];
+        [UnityAds initialize:@"1503295" delegate:self];
     }
     
     [[NSNotificationCenter defaultCenter] addObserverForName:AdRemovedNotificationName object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
