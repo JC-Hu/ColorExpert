@@ -489,66 +489,6 @@
 		04D9774A1CE5DE6B00078BAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975961CE5DE6B00078BAC /* ViewController.m */; };
 		04D9774B1CE5DE6B00078BAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975961CE5DE6B00078BAC /* ViewController.m */; };
 		04D9774C1CE5DE6B00078BAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975961CE5DE6B00078BAC /* ViewController.m */; };
-		04D9774D1CE5DE6B00078BAC /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A11CE5DE6B00078BAC /* LocalConnection.m */; };
-		04D9774E1CE5DE6B00078BAC /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A11CE5DE6B00078BAC /* LocalConnection.m */; };
-		04D9774F1CE5DE6B00078BAC /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A11CE5DE6B00078BAC /* LocalConnection.m */; };
-		04D977501CE5DE6B00078BAC /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A11CE5DE6B00078BAC /* LocalConnection.m */; };
-		04D977511CE5DE6B00078BAC /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A11CE5DE6B00078BAC /* LocalConnection.m */; };
-		04D977521CE5DE6B00078BAC /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A51CE5DE6B00078BAC /* FSMEngine.m */; };
-		04D977531CE5DE6B00078BAC /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A51CE5DE6B00078BAC /* FSMEngine.m */; };
-		04D977541CE5DE6B00078BAC /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A51CE5DE6B00078BAC /* FSMEngine.m */; };
-		04D977551CE5DE6B00078BAC /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A51CE5DE6B00078BAC /* FSMEngine.m */; };
-		04D977561CE5DE6B00078BAC /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A51CE5DE6B00078BAC /* FSMEngine.m */; };
-		04D977571CE5DE6B00078BAC /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A71CE5DE6B00078BAC /* FSMStateUtil.m */; };
-		04D977581CE5DE6B00078BAC /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A71CE5DE6B00078BAC /* FSMStateUtil.m */; };
-		04D977591CE5DE6B00078BAC /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A71CE5DE6B00078BAC /* FSMStateUtil.m */; };
-		04D9775A1CE5DE6B00078BAC /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A71CE5DE6B00078BAC /* FSMStateUtil.m */; };
-		04D9775B1CE5DE6B00078BAC /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A71CE5DE6B00078BAC /* FSMStateUtil.m */; };
-		04D9775C1CE5DE6B00078BAC /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A91CE5DE6B00078BAC /* ReachState.m */; };
-		04D9775D1CE5DE6B00078BAC /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A91CE5DE6B00078BAC /* ReachState.m */; };
-		04D9775E1CE5DE6B00078BAC /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A91CE5DE6B00078BAC /* ReachState.m */; };
-		04D9775F1CE5DE6B00078BAC /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A91CE5DE6B00078BAC /* ReachState.m */; };
-		04D977601CE5DE6B00078BAC /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975A91CE5DE6B00078BAC /* ReachState.m */; };
-		04D977611CE5DE6B00078BAC /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975AB1CE5DE6B00078BAC /* ReachStateLoading.m */; };
-		04D977621CE5DE6B00078BAC /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975AB1CE5DE6B00078BAC /* ReachStateLoading.m */; };
-		04D977631CE5DE6B00078BAC /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975AB1CE5DE6B00078BAC /* ReachStateLoading.m */; };
-		04D977641CE5DE6B00078BAC /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975AB1CE5DE6B00078BAC /* ReachStateLoading.m */; };
-		04D977651CE5DE6B00078BAC /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975AB1CE5DE6B00078BAC /* ReachStateLoading.m */; };
-		04D977661CE5DE6B00078BAC /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975AD1CE5DE6B00078BAC /* ReachStateUnloaded.m */; };
-		04D977671CE5DE6B00078BAC /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975AD1CE5DE6B00078BAC /* ReachStateUnloaded.m */; };
-		04D977681CE5DE6B00078BAC /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975AD1CE5DE6B00078BAC /* ReachStateUnloaded.m */; };
-		04D977691CE5DE6B00078BAC /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975AD1CE5DE6B00078BAC /* ReachStateUnloaded.m */; };
-		04D9776A1CE5DE6B00078BAC /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975AD1CE5DE6B00078BAC /* ReachStateUnloaded.m */; };
-		04D9776B1CE5DE6B00078BAC /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975AF1CE5DE6B00078BAC /* ReachStateUnReachable.m */; };
-		04D9776C1CE5DE6B00078BAC /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975AF1CE5DE6B00078BAC /* ReachStateUnReachable.m */; };
-		04D9776D1CE5DE6B00078BAC /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975AF1CE5DE6B00078BAC /* ReachStateUnReachable.m */; };
-		04D9776E1CE5DE6B00078BAC /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975AF1CE5DE6B00078BAC /* ReachStateUnReachable.m */; };
-		04D9776F1CE5DE6B00078BAC /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975AF1CE5DE6B00078BAC /* ReachStateUnReachable.m */; };
-		04D977701CE5DE6B00078BAC /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B11CE5DE6B00078BAC /* ReachStateWIFI.m */; };
-		04D977711CE5DE6B00078BAC /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B11CE5DE6B00078BAC /* ReachStateWIFI.m */; };
-		04D977721CE5DE6B00078BAC /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B11CE5DE6B00078BAC /* ReachStateWIFI.m */; };
-		04D977731CE5DE6B00078BAC /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B11CE5DE6B00078BAC /* ReachStateWIFI.m */; };
-		04D977741CE5DE6B00078BAC /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B11CE5DE6B00078BAC /* ReachStateWIFI.m */; };
-		04D977751CE5DE6B00078BAC /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B31CE5DE6B00078BAC /* ReachStateWWAN.m */; };
-		04D977761CE5DE6B00078BAC /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B31CE5DE6B00078BAC /* ReachStateWWAN.m */; };
-		04D977771CE5DE6B00078BAC /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B31CE5DE6B00078BAC /* ReachStateWWAN.m */; };
-		04D977781CE5DE6B00078BAC /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B31CE5DE6B00078BAC /* ReachStateWWAN.m */; };
-		04D977791CE5DE6B00078BAC /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B31CE5DE6B00078BAC /* ReachStateWWAN.m */; };
-		04D9777A1CE5DE6B00078BAC /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B61CE5DE6B00078BAC /* PingFoundation.m */; };
-		04D9777B1CE5DE6B00078BAC /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B61CE5DE6B00078BAC /* PingFoundation.m */; };
-		04D9777C1CE5DE6B00078BAC /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B61CE5DE6B00078BAC /* PingFoundation.m */; };
-		04D9777D1CE5DE6B00078BAC /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B61CE5DE6B00078BAC /* PingFoundation.m */; };
-		04D9777E1CE5DE6B00078BAC /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B61CE5DE6B00078BAC /* PingFoundation.m */; };
-		04D9777F1CE5DE6B00078BAC /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B81CE5DE6B00078BAC /* PingHelper.m */; };
-		04D977801CE5DE6B00078BAC /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B81CE5DE6B00078BAC /* PingHelper.m */; };
-		04D977811CE5DE6B00078BAC /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B81CE5DE6B00078BAC /* PingHelper.m */; };
-		04D977821CE5DE6B00078BAC /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B81CE5DE6B00078BAC /* PingHelper.m */; };
-		04D977831CE5DE6B00078BAC /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975B81CE5DE6B00078BAC /* PingHelper.m */; };
-		04D977841CE5DE6B00078BAC /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975BA1CE5DE6B00078BAC /* RealReachability.m */; };
-		04D977851CE5DE6B00078BAC /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975BA1CE5DE6B00078BAC /* RealReachability.m */; };
-		04D977861CE5DE6B00078BAC /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975BA1CE5DE6B00078BAC /* RealReachability.m */; };
-		04D977871CE5DE6B00078BAC /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975BA1CE5DE6B00078BAC /* RealReachability.m */; };
-		04D977881CE5DE6B00078BAC /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D975BA1CE5DE6B00078BAC /* RealReachability.m */; };
 		04D978441CE5DEDA00078BAC /* NSString+Convert.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D977B31CE5DEDA00078BAC /* NSString+Convert.m */; };
 		04D978451CE5DEDA00078BAC /* NSString+Judge.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D977B51CE5DEDA00078BAC /* NSString+Judge.m */; };
 		04D978461CE5DEDA00078BAC /* UIImage+ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D977B71CE5DEDA00078BAC /* UIImage+ImageUtil.m */; };
@@ -570,11 +510,32 @@
 		7C310D29EA4536CFD53944E6 /* libPods-ColorExpert-CMYK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFCD44FF9B1769D56FA9BE3 /* libPods-ColorExpert-CMYK.a */; };
 		8276D975C553BDF804BE4814 /* libPods-ColorExpert-R2H.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0C0257CBAAAF1DF4D7A28A /* libPods-ColorExpert-R2H.a */; };
 		936686AF233E035F5C399834 /* libPods-ColorExpert-H2R.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D34C5D03D6A8E2CA43B2BD /* libPods-ColorExpert-H2R.a */; };
+		9D2D57D61F39C24F002A73F9 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D57D51F39C24F002A73F9 /* IntroViewController.m */; };
+		9D2D57D71F39C24F002A73F9 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D57D51F39C24F002A73F9 /* IntroViewController.m */; };
+		9D2D57D81F39C24F002A73F9 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D57D51F39C24F002A73F9 /* IntroViewController.m */; };
+		9D2D57D91F39C24F002A73F9 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D57D51F39C24F002A73F9 /* IntroViewController.m */; };
+		9D2D57DA1F39C24F002A73F9 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D57D51F39C24F002A73F9 /* IntroViewController.m */; };
+		9D2D57DD1F3AC9F3002A73F9 /* ImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D57DC1F3AC9F3002A73F9 /* ImageCollectionCell.m */; };
+		9D2D57DE1F3AC9F3002A73F9 /* ImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D57DC1F3AC9F3002A73F9 /* ImageCollectionCell.m */; };
+		9D2D57DF1F3AC9F3002A73F9 /* ImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D57DC1F3AC9F3002A73F9 /* ImageCollectionCell.m */; };
+		9D2D57E01F3AC9F3002A73F9 /* ImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D57DC1F3AC9F3002A73F9 /* ImageCollectionCell.m */; };
+		9D2D57E11F3AC9F3002A73F9 /* ImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D57DC1F3AC9F3002A73F9 /* ImageCollectionCell.m */; };
+		9D867A9E1F2CC190009C4BF0 /* JCHUShowColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D867A9D1F2CC165009C4BF0 /* JCHUShowColorView.m */; };
+		9D867A9F1F2CC191009C4BF0 /* JCHUShowColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D867A9D1F2CC165009C4BF0 /* JCHUShowColorView.m */; };
+		9D867AA01F2CC191009C4BF0 /* JCHUShowColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D867A9D1F2CC165009C4BF0 /* JCHUShowColorView.m */; };
+		9D867AA11F2CC192009C4BF0 /* JCHUShowColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D867A9D1F2CC165009C4BF0 /* JCHUShowColorView.m */; };
+		9D867AA21F2CC193009C4BF0 /* JCHUShowColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D867A9D1F2CC165009C4BF0 /* JCHUShowColorView.m */; };
+		9D867AA31F2CC194009C4BF0 /* JCHUShowColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D867A9D1F2CC165009C4BF0 /* JCHUShowColorView.m */; };
 		9D9031F21DC1A66000F23017 /* ColorExpert copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D9031ED1DC1A66000F23017 /* ColorExpert copy-Info.plist */; };
 		9D9031F31DC1A66000F23017 /* ColorExpert copy2-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D9031EE1DC1A66000F23017 /* ColorExpert copy2-Info.plist */; };
 		9D9031F41DC1A66000F23017 /* ColorExpert-CMYK copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D9031EF1DC1A66000F23017 /* ColorExpert-CMYK copy-Info.plist */; };
 		9D9031F51DC1A66000F23017 /* ColorExpert-H2R copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D9031F01DC1A66000F23017 /* ColorExpert-H2R copy-Info.plist */; };
 		9D9031F61DC1A66000F23017 /* ColorExpert-R2H copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D9031F11DC1A66000F23017 /* ColorExpert-R2H copy-Info.plist */; };
+		9DDD47041F38488600964BBA /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDD47031F38477B00964BBA /* UnityAds.framework */; };
+		9DDD47051F38488600964BBA /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDD47031F38477B00964BBA /* UnityAds.framework */; };
+		9DDD47061F38488700964BBA /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDD47031F38477B00964BBA /* UnityAds.framework */; };
+		9DDD47071F38488800964BBA /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDD47031F38477B00964BBA /* UnityAds.framework */; };
+		9DDD47081F38488800964BBA /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDD47031F38477B00964BBA /* UnityAds.framework */; };
 		AAE01D7F50A233415B81E8AD /* libPods-ColorExpert-Today.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A07F1B2837C66F4F3BAF4304 /* libPods-ColorExpert-Today.a */; };
 /* End PBXBuildFile section */
 
@@ -834,31 +795,6 @@
 		04D975931CE5DE6B00078BAC /* ColorRGBInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorRGBInfo.m; sourceTree = "<group>"; };
 		04D975951CE5DE6B00078BAC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		04D975961CE5DE6B00078BAC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04D975A01CE5DE6B00078BAC /* LocalConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalConnection.h; sourceTree = "<group>"; };
-		04D975A11CE5DE6B00078BAC /* LocalConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalConnection.m; sourceTree = "<group>"; };
-		04D975A31CE5DE6B00078BAC /* FSMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMDefines.h; sourceTree = "<group>"; };
-		04D975A41CE5DE6B00078BAC /* FSMEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMEngine.h; sourceTree = "<group>"; };
-		04D975A51CE5DE6B00078BAC /* FSMEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMEngine.m; sourceTree = "<group>"; };
-		04D975A61CE5DE6B00078BAC /* FSMStateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMStateUtil.h; sourceTree = "<group>"; };
-		04D975A71CE5DE6B00078BAC /* FSMStateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMStateUtil.m; sourceTree = "<group>"; };
-		04D975A81CE5DE6B00078BAC /* ReachState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachState.h; sourceTree = "<group>"; };
-		04D975A91CE5DE6B00078BAC /* ReachState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachState.m; sourceTree = "<group>"; };
-		04D975AA1CE5DE6B00078BAC /* ReachStateLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateLoading.h; sourceTree = "<group>"; };
-		04D975AB1CE5DE6B00078BAC /* ReachStateLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateLoading.m; sourceTree = "<group>"; };
-		04D975AC1CE5DE6B00078BAC /* ReachStateUnloaded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateUnloaded.h; sourceTree = "<group>"; };
-		04D975AD1CE5DE6B00078BAC /* ReachStateUnloaded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateUnloaded.m; sourceTree = "<group>"; };
-		04D975AE1CE5DE6B00078BAC /* ReachStateUnReachable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateUnReachable.h; sourceTree = "<group>"; };
-		04D975AF1CE5DE6B00078BAC /* ReachStateUnReachable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateUnReachable.m; sourceTree = "<group>"; };
-		04D975B01CE5DE6B00078BAC /* ReachStateWIFI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateWIFI.h; sourceTree = "<group>"; };
-		04D975B11CE5DE6B00078BAC /* ReachStateWIFI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateWIFI.m; sourceTree = "<group>"; };
-		04D975B21CE5DE6B00078BAC /* ReachStateWWAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateWWAN.h; sourceTree = "<group>"; };
-		04D975B31CE5DE6B00078BAC /* ReachStateWWAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateWWAN.m; sourceTree = "<group>"; };
-		04D975B51CE5DE6B00078BAC /* PingFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingFoundation.h; sourceTree = "<group>"; };
-		04D975B61CE5DE6B00078BAC /* PingFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingFoundation.m; sourceTree = "<group>"; };
-		04D975B71CE5DE6B00078BAC /* PingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingHelper.h; sourceTree = "<group>"; };
-		04D975B81CE5DE6B00078BAC /* PingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingHelper.m; sourceTree = "<group>"; };
-		04D975B91CE5DE6B00078BAC /* RealReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealReachability.h; sourceTree = "<group>"; };
-		04D975BA1CE5DE6B00078BAC /* RealReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealReachability.m; sourceTree = "<group>"; };
 		04D977B21CE5DEDA00078BAC /* NSString+Convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Convert.h"; sourceTree = "<group>"; };
 		04D977B31CE5DEDA00078BAC /* NSString+Convert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Convert.m"; sourceTree = "<group>"; };
 		04D977B41CE5DEDA00078BAC /* NSString+Judge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Judge.h"; sourceTree = "<group>"; };
@@ -882,11 +818,18 @@
 		7B06D20679A0518421988AA1 /* libPods-ColorExpert-HSB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorExpert-HSB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		974C9310D00DC24205D9C07B /* Pods-ColorExpert-HSB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorExpert-HSB.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorExpert-HSB/Pods-ColorExpert-HSB.release.xcconfig"; sourceTree = "<group>"; };
 		9AA0ADF04CB263EC71D972B8 /* Pods-ColorExpert-HSB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorExpert-HSB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorExpert-HSB/Pods-ColorExpert-HSB.debug.xcconfig"; sourceTree = "<group>"; };
+		9D2D57D41F39C24F002A73F9 /* IntroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		9D2D57D51F39C24F002A73F9 /* IntroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		9D2D57DB1F3AC9F3002A73F9 /* ImageCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCollectionCell.h; sourceTree = "<group>"; };
+		9D2D57DC1F3AC9F3002A73F9 /* ImageCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionCell.m; sourceTree = "<group>"; };
+		9D867A9C1F2CC165009C4BF0 /* JCHUShowColorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCHUShowColorView.h; sourceTree = "<group>"; };
+		9D867A9D1F2CC165009C4BF0 /* JCHUShowColorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCHUShowColorView.m; sourceTree = "<group>"; };
 		9D9031ED1DC1A66000F23017 /* ColorExpert copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ColorExpert copy-Info.plist"; sourceTree = "<group>"; };
 		9D9031EE1DC1A66000F23017 /* ColorExpert copy2-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ColorExpert copy2-Info.plist"; sourceTree = "<group>"; };
 		9D9031EF1DC1A66000F23017 /* ColorExpert-CMYK copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ColorExpert-CMYK copy-Info.plist"; sourceTree = "<group>"; };
 		9D9031F01DC1A66000F23017 /* ColorExpert-H2R copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ColorExpert-H2R copy-Info.plist"; sourceTree = "<group>"; };
 		9D9031F11DC1A66000F23017 /* ColorExpert-R2H copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ColorExpert-R2H copy-Info.plist"; sourceTree = "<group>"; };
+		9DDD47031F38477B00964BBA /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
 		A07F1B2837C66F4F3BAF4304 /* libPods-ColorExpert-Today.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorExpert-Today.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1AE4C12C6CE4C0E1E5D4B75 /* Pods-ColorExpert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorExpert.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorExpert/Pods-ColorExpert.release.xcconfig"; sourceTree = "<group>"; };
 		B73BECE39B6BB4A59E452615 /* Pods-ColorExpert-H2R.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorExpert-H2R.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorExpert-H2R/Pods-ColorExpert-H2R.release.xcconfig"; sourceTree = "<group>"; };
@@ -906,6 +849,7 @@
 				04313C9A1CB17565006C1792 /* UIKit.framework in Frameworks */,
 				04313C9B1CB17565006C1792 /* CoreGraphics.framework in Frameworks */,
 				04313C9C1CB17565006C1792 /* SystemConfiguration.framework in Frameworks */,
+				9DDD47051F38488600964BBA /* UnityAds.framework in Frameworks */,
 				04313C9D1CB17565006C1792 /* MobileCoreServices.framework in Frameworks */,
 				04313C9E1CB17565006C1792 /* CoreTelephony.framework in Frameworks */,
 				04313C9F1CB17565006C1792 /* CoreLocation.framework in Frameworks */,
@@ -923,6 +867,7 @@
 				04313D161CB175C9006C1792 /* UIKit.framework in Frameworks */,
 				04313D171CB175C9006C1792 /* CoreGraphics.framework in Frameworks */,
 				04313D181CB175C9006C1792 /* SystemConfiguration.framework in Frameworks */,
+				9DDD47041F38488600964BBA /* UnityAds.framework in Frameworks */,
 				04313D191CB175C9006C1792 /* MobileCoreServices.framework in Frameworks */,
 				04313D1A1CB175C9006C1792 /* CoreTelephony.framework in Frameworks */,
 				04313D1B1CB175C9006C1792 /* CoreLocation.framework in Frameworks */,
@@ -940,6 +885,7 @@
 				0482A41E1CB1768B00A5FF8D /* UIKit.framework in Frameworks */,
 				0482A41F1CB1768B00A5FF8D /* CoreGraphics.framework in Frameworks */,
 				0482A4201CB1768B00A5FF8D /* SystemConfiguration.framework in Frameworks */,
+				9DDD47061F38488700964BBA /* UnityAds.framework in Frameworks */,
 				0482A4211CB1768B00A5FF8D /* MobileCoreServices.framework in Frameworks */,
 				0482A4221CB1768B00A5FF8D /* CoreTelephony.framework in Frameworks */,
 				0482A4231CB1768B00A5FF8D /* CoreLocation.framework in Frameworks */,
@@ -957,6 +903,7 @@
 				0482A49A1CB176A300A5FF8D /* UIKit.framework in Frameworks */,
 				0482A49B1CB176A300A5FF8D /* CoreGraphics.framework in Frameworks */,
 				0482A49C1CB176A300A5FF8D /* SystemConfiguration.framework in Frameworks */,
+				9DDD47081F38488800964BBA /* UnityAds.framework in Frameworks */,
 				0482A49D1CB176A300A5FF8D /* MobileCoreServices.framework in Frameworks */,
 				0482A49E1CB176A300A5FF8D /* CoreTelephony.framework in Frameworks */,
 				0482A49F1CB176A300A5FF8D /* CoreLocation.framework in Frameworks */,
@@ -980,6 +927,7 @@
 				0482A51B1CB176BC00A5FF8D /* CoreLocation.framework in Frameworks */,
 				0482A51C1CB176BC00A5FF8D /* libsqlite3.0.tbd in Frameworks */,
 				736F2124F15E2A7A7DD44212 /* libPods-ColorExpert-HSB.a in Frameworks */,
+				9DDD47071F38488800964BBA /* UnityAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1546,21 +1494,15 @@
 		04D975791CE5DE6B00078BAC /* General */ = {
 			isa = PBXGroup;
 			children = (
-				04D9757A1CE5DE6B00078BAC /* DrawRectView */,
 				04D9757B1CE5DE6B00078BAC /* InputAccessoryView */,
 				04D975821CE5DE6B00078BAC /* Macro.h */,
 				04D975831CE5DE6B00078BAC /* ShortcutMacro.h */,
+				9D867A9C1F2CC165009C4BF0 /* JCHUShowColorView.h */,
+				9D867A9D1F2CC165009C4BF0 /* JCHUShowColorView.m */,
 				04D975841CE5DE6B00078BAC /* UIColor+JCHUColorInfo.h */,
 				04D975851CE5DE6B00078BAC /* UIColor+JCHUColorInfo.m */,
 			);
 			path = General;
-			sourceTree = "<group>";
-		};
-		04D9757A1CE5DE6B00078BAC /* DrawRectView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DrawRectView;
 			sourceTree = "<group>";
 		};
 		04D9757B1CE5DE6B00078BAC /* InputAccessoryView */ = {
@@ -1609,6 +1551,10 @@
 			children = (
 				04D975951CE5DE6B00078BAC /* ViewController.h */,
 				04D975961CE5DE6B00078BAC /* ViewController.m */,
+				9D2D57D41F39C24F002A73F9 /* IntroViewController.h */,
+				9D2D57D51F39C24F002A73F9 /* IntroViewController.m */,
+				9D2D57DB1F3AC9F3002A73F9 /* ImageCollectionCell.h */,
+				9D2D57DC1F3AC9F3002A73F9 /* ImageCollectionCell.m */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -1616,23 +1562,13 @@
 		04D975971CE5DE6B00078BAC /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				04D975981CE5DE6B00078BAC /* AccelerometerFilter */,
+				9DDD47031F38477B00964BBA /* UnityAds.framework */,
 				04D975991CE5DE6B00078BAC /* AVOSCloud */,
-				04D9759A1CE5DE6B00078BAC /* GoogleMobileAdsSdkiOS-7.6.0 */,
 				04D9759C1CE5DE6B00078BAC /* Masonry */,
-				04D9759D1CE5DE6B00078BAC /* Panorific */,
-				04D9759E1CE5DE6B00078BAC /* RealReachability */,
 				04D975BB1CE5DE6B00078BAC /* RGBColorSlider */,
 				04D975BC1CE5DE6B00078BAC /* UIView+Effects(Blur) */,
 			);
 			path = Vendors;
-			sourceTree = "<group>";
-		};
-		04D975981CE5DE6B00078BAC /* AccelerometerFilter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AccelerometerFilter;
 			sourceTree = "<group>";
 		};
 		04D975991CE5DE6B00078BAC /* AVOSCloud */ = {
@@ -1642,89 +1578,11 @@
 			path = AVOSCloud;
 			sourceTree = "<group>";
 		};
-		04D9759A1CE5DE6B00078BAC /* GoogleMobileAdsSdkiOS-7.6.0 */ = {
-			isa = PBXGroup;
-			children = (
-				04D9759B1CE5DE6B00078BAC /* Mediation Adapters */,
-			);
-			path = "GoogleMobileAdsSdkiOS-7.6.0";
-			sourceTree = "<group>";
-		};
-		04D9759B1CE5DE6B00078BAC /* Mediation Adapters */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Mediation Adapters";
-			sourceTree = "<group>";
-		};
 		04D9759C1CE5DE6B00078BAC /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Masonry;
-			sourceTree = "<group>";
-		};
-		04D9759D1CE5DE6B00078BAC /* Panorific */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Panorific;
-			sourceTree = "<group>";
-		};
-		04D9759E1CE5DE6B00078BAC /* RealReachability */ = {
-			isa = PBXGroup;
-			children = (
-				04D9759F1CE5DE6B00078BAC /* Connection */,
-				04D975A21CE5DE6B00078BAC /* FSM */,
-				04D975B41CE5DE6B00078BAC /* Ping */,
-				04D975B91CE5DE6B00078BAC /* RealReachability.h */,
-				04D975BA1CE5DE6B00078BAC /* RealReachability.m */,
-			);
-			path = RealReachability;
-			sourceTree = "<group>";
-		};
-		04D9759F1CE5DE6B00078BAC /* Connection */ = {
-			isa = PBXGroup;
-			children = (
-				04D975A01CE5DE6B00078BAC /* LocalConnection.h */,
-				04D975A11CE5DE6B00078BAC /* LocalConnection.m */,
-			);
-			path = Connection;
-			sourceTree = "<group>";
-		};
-		04D975A21CE5DE6B00078BAC /* FSM */ = {
-			isa = PBXGroup;
-			children = (
-				04D975A31CE5DE6B00078BAC /* FSMDefines.h */,
-				04D975A41CE5DE6B00078BAC /* FSMEngine.h */,
-				04D975A51CE5DE6B00078BAC /* FSMEngine.m */,
-				04D975A61CE5DE6B00078BAC /* FSMStateUtil.h */,
-				04D975A71CE5DE6B00078BAC /* FSMStateUtil.m */,
-				04D975A81CE5DE6B00078BAC /* ReachState.h */,
-				04D975A91CE5DE6B00078BAC /* ReachState.m */,
-				04D975AA1CE5DE6B00078BAC /* ReachStateLoading.h */,
-				04D975AB1CE5DE6B00078BAC /* ReachStateLoading.m */,
-				04D975AC1CE5DE6B00078BAC /* ReachStateUnloaded.h */,
-				04D975AD1CE5DE6B00078BAC /* ReachStateUnloaded.m */,
-				04D975AE1CE5DE6B00078BAC /* ReachStateUnReachable.h */,
-				04D975AF1CE5DE6B00078BAC /* ReachStateUnReachable.m */,
-				04D975B01CE5DE6B00078BAC /* ReachStateWIFI.h */,
-				04D975B11CE5DE6B00078BAC /* ReachStateWIFI.m */,
-				04D975B21CE5DE6B00078BAC /* ReachStateWWAN.h */,
-				04D975B31CE5DE6B00078BAC /* ReachStateWWAN.m */,
-			);
-			path = FSM;
-			sourceTree = "<group>";
-		};
-		04D975B41CE5DE6B00078BAC /* Ping */ = {
-			isa = PBXGroup;
-			children = (
-				04D975B51CE5DE6B00078BAC /* PingFoundation.h */,
-				04D975B61CE5DE6B00078BAC /* PingFoundation.m */,
-				04D975B71CE5DE6B00078BAC /* PingHelper.h */,
-				04D975B81CE5DE6B00078BAC /* PingHelper.m */,
-			);
-			path = Ping;
 			sourceTree = "<group>";
 		};
 		04D975BB1CE5DE6B00078BAC /* RGBColorSlider */ = {
@@ -2341,26 +2199,26 @@
 				04D9763B1CE5DE6B00078BAC /* UIColor+Random.m in Sources */,
 				04D977121CE5DE6B00078BAC /* TranslateInputAccessoryCollectionViewCell.m in Sources */,
 				04D976BD1CE5DE6B00078BAC /* UITextView+PlaceHolder.m in Sources */,
-				04D977621CE5DE6B00078BAC /* ReachStateLoading.m in Sources */,
 				04D976951CE5DE6B00078BAC /* UIResponder+Chain.m in Sources */,
+				9D2D57D71F39C24F002A73F9 /* IntroViewController.m in Sources */,
 				04D977081CE5DE6B00078BAC /* UIWindow+Hierarchy.m in Sources */,
 				04D9768B1CE5DE6B00078BAC /* UINavigationController+KeyboardFix.m in Sources */,
 				04D976EA1CE5DE6B00078BAC /* UIViewController+RecursiveDescription.m in Sources */,
-				04D9777B1CE5DE6B00078BAC /* PingFoundation.m in Sources */,
 				04D976361CE5DE6B00078BAC /* UIColor+Modify.m in Sources */,
 				04D975F01CE5DE6B00078BAC /* NSDictionary+SafeAccess.m in Sources */,
 				04D976311CE5DE6B00078BAC /* UIColor+HEX.m in Sources */,
 				04D976901CE5DE6B00078BAC /* UINavigationController+StackManager.m in Sources */,
 				04D976631CE5DE6B00078BAC /* UIImage+Merge.m in Sources */,
 				04D977031CE5DE6B00078BAC /* UIWebView+Style.m in Sources */,
+				9D2D57DE1F3AC9F3002A73F9 /* ImageCollectionCell.m in Sources */,
 				04D976D11CE5DE6B00078BAC /* UIView+Find.m in Sources */,
 				04313C641CB17565006C1792 /* AppDelegate.m in Sources */,
+				9D867A9F1F2CC191009C4BF0 /* JCHUShowColorView.m in Sources */,
 				04D976A91CE5DE6B00078BAC /* UISearchBar+Blocks.m in Sources */,
 				04D976B31CE5DE6B00078BAC /* UITableViewCell+NIB.m in Sources */,
 				04D975F51CE5DE6B00078BAC /* MKMapView+ZoomLevel.m in Sources */,
 				04D977351CE5DE6B00078BAC /* ColorCMYKInfo.m in Sources */,
 				04D976451CE5DE6B00078BAC /* UIDevice+Hardware.m in Sources */,
-				04D9775D1CE5DE6B00078BAC /* ReachState.m in Sources */,
 				04D975D71CE5DE6B00078BAC /* NSDate+Utilities.m in Sources */,
 				04D976DB1CE5DE6B00078BAC /* UIView+RecursiveDescription.m in Sources */,
 				04D977301CE5DE6B00078BAC /* JCHUAdHelper.m in Sources */,
@@ -2368,8 +2226,6 @@
 				04D976FE1CE5DE6B00078BAC /* UIWebView+Canvas.m in Sources */,
 				04D976A41CE5DE6B00078BAC /* UIScrollView+Pages.m in Sources */,
 				04D976811CE5DE6B00078BAC /* UINavigationBar+Awesome.m in Sources */,
-				04D977801CE5DE6B00078BAC /* PingHelper.m in Sources */,
-				04D977531CE5DE6B00078BAC /* FSMEngine.m in Sources */,
 				04D975CD1CE5DE6B00078BAC /* NSDate+Extension.m in Sources */,
 				04D9764A1CE5DE6B00078BAC /* UIImage+animatedGIF.m in Sources */,
 				04D975EB1CE5DE6B00078BAC /* NSDictionary+Merge.m in Sources */,
@@ -2380,17 +2236,13 @@
 				04D975E11CE5DE6B00078BAC /* NSDateFormatter+Make.m in Sources */,
 				04811A821D267A24007F46C7 /* JCHUAppHelper.m in Sources */,
 				04D976091CE5DE6B00078BAC /* MKMapView+ZoomLevel.m in Sources */,
-				04D977581CE5DE6B00078BAC /* FSMStateUtil.m in Sources */,
 				04D976D61CE5DE6B00078BAC /* UIView+Nib.m in Sources */,
 				04D976591CE5DE6B00078BAC /* UIImage+FileName.m in Sources */,
 				04D9773A1CE5DE6B00078BAC /* ColorHexInfo.m in Sources */,
 				04D976F41CE5DE6B00078BAC /* UIWebView+Alert.m in Sources */,
 				04D9764F1CE5DE6B00078BAC /* UIImage+Capture.m in Sources */,
-				04D977851CE5DE6B00078BAC /* RealReachability.m in Sources */,
-				04D9776C1CE5DE6B00078BAC /* ReachStateUnReachable.m in Sources */,
 				04D975FF1CE5DE6B00078BAC /* NSString+Judge.m in Sources */,
 				04D9760E1CE5DE6B00078BAC /* UIBezierPath+BasicShapes.m in Sources */,
-				04D977711CE5DE6B00078BAC /* ReachStateWIFI.m in Sources */,
 				04D976541CE5DE6B00078BAC /* UIImage+Color.m in Sources */,
 				04D976181CE5DE6B00078BAC /* UIBezierPath+Symbol.m in Sources */,
 				04D976131CE5DE6B00078BAC /* UIBezierPath+SVG.m in Sources */,
@@ -2407,12 +2259,9 @@
 				04D976F91CE5DE6B00078BAC /* UIWebView+Blocks.m in Sources */,
 				04D9761D1CE5DE6B00078BAC /* UIButton+Block.m in Sources */,
 				04D9771C1CE5DE6B00078BAC /* TranslateInputAccessoryView.m in Sources */,
-				04D977671CE5DE6B00078BAC /* ReachStateUnloaded.m in Sources */,
 				04D975C31CE5DE6B00078BAC /* NSData+Encrypt.m in Sources */,
-				04D977761CE5DE6B00078BAC /* ReachStateWWAN.m in Sources */,
 				04D9766D1CE5DE6B00078BAC /* UIImage+RemoteSize.m in Sources */,
 				04D977261CE5DE6B00078BAC /* UIColor+JCHUColorInfo.m in Sources */,
-				04D9774E1CE5DE6B00078BAC /* LocalConnection.m in Sources */,
 				04D976C71CE5DE6B00078BAC /* UIView+BlockGesture.m in Sources */,
 				04D976401CE5DE6B00078BAC /* UIColor+Web.m in Sources */,
 				04D9767C1CE5DE6B00078BAC /* UILabel+SuggestSize.m in Sources */,
@@ -2440,26 +2289,26 @@
 				04D9763A1CE5DE6B00078BAC /* UIColor+Random.m in Sources */,
 				04D977111CE5DE6B00078BAC /* TranslateInputAccessoryCollectionViewCell.m in Sources */,
 				04D976BC1CE5DE6B00078BAC /* UITextView+PlaceHolder.m in Sources */,
-				04D977611CE5DE6B00078BAC /* ReachStateLoading.m in Sources */,
 				04D976941CE5DE6B00078BAC /* UIResponder+Chain.m in Sources */,
+				9D2D57D61F39C24F002A73F9 /* IntroViewController.m in Sources */,
 				04D977071CE5DE6B00078BAC /* UIWindow+Hierarchy.m in Sources */,
 				04D9768A1CE5DE6B00078BAC /* UINavigationController+KeyboardFix.m in Sources */,
 				04D976E91CE5DE6B00078BAC /* UIViewController+RecursiveDescription.m in Sources */,
-				04D9777A1CE5DE6B00078BAC /* PingFoundation.m in Sources */,
 				04D976351CE5DE6B00078BAC /* UIColor+Modify.m in Sources */,
 				04D975EF1CE5DE6B00078BAC /* NSDictionary+SafeAccess.m in Sources */,
 				04D976301CE5DE6B00078BAC /* UIColor+HEX.m in Sources */,
 				04D9768F1CE5DE6B00078BAC /* UINavigationController+StackManager.m in Sources */,
 				04D976621CE5DE6B00078BAC /* UIImage+Merge.m in Sources */,
 				04D977021CE5DE6B00078BAC /* UIWebView+Style.m in Sources */,
+				9D2D57DD1F3AC9F3002A73F9 /* ImageCollectionCell.m in Sources */,
 				04D976D01CE5DE6B00078BAC /* UIView+Find.m in Sources */,
 				04313CE01CB175C9006C1792 /* AppDelegate.m in Sources */,
+				9D867A9E1F2CC190009C4BF0 /* JCHUShowColorView.m in Sources */,
 				04D976A81CE5DE6B00078BAC /* UISearchBar+Blocks.m in Sources */,
 				04D976B21CE5DE6B00078BAC /* UITableViewCell+NIB.m in Sources */,
 				04D975F41CE5DE6B00078BAC /* MKMapView+ZoomLevel.m in Sources */,
 				04D977341CE5DE6B00078BAC /* ColorCMYKInfo.m in Sources */,
 				04D976441CE5DE6B00078BAC /* UIDevice+Hardware.m in Sources */,
-				04D9775C1CE5DE6B00078BAC /* ReachState.m in Sources */,
 				04D975D61CE5DE6B00078BAC /* NSDate+Utilities.m in Sources */,
 				04D976DA1CE5DE6B00078BAC /* UIView+RecursiveDescription.m in Sources */,
 				04D9772F1CE5DE6B00078BAC /* JCHUAdHelper.m in Sources */,
@@ -2467,8 +2316,6 @@
 				04D976FD1CE5DE6B00078BAC /* UIWebView+Canvas.m in Sources */,
 				04D976A31CE5DE6B00078BAC /* UIScrollView+Pages.m in Sources */,
 				04D976801CE5DE6B00078BAC /* UINavigationBar+Awesome.m in Sources */,
-				04D9777F1CE5DE6B00078BAC /* PingHelper.m in Sources */,
-				04D977521CE5DE6B00078BAC /* FSMEngine.m in Sources */,
 				04D975CC1CE5DE6B00078BAC /* NSDate+Extension.m in Sources */,
 				04D976491CE5DE6B00078BAC /* UIImage+animatedGIF.m in Sources */,
 				04D975EA1CE5DE6B00078BAC /* NSDictionary+Merge.m in Sources */,
@@ -2479,17 +2326,13 @@
 				04D975E01CE5DE6B00078BAC /* NSDateFormatter+Make.m in Sources */,
 				04811A811D267A24007F46C7 /* JCHUAppHelper.m in Sources */,
 				04D976081CE5DE6B00078BAC /* MKMapView+ZoomLevel.m in Sources */,
-				04D977571CE5DE6B00078BAC /* FSMStateUtil.m in Sources */,
 				04D976D51CE5DE6B00078BAC /* UIView+Nib.m in Sources */,
 				04D976581CE5DE6B00078BAC /* UIImage+FileName.m in Sources */,
 				04D977391CE5DE6B00078BAC /* ColorHexInfo.m in Sources */,
 				04D976F31CE5DE6B00078BAC /* UIWebView+Alert.m in Sources */,
 				04D9764E1CE5DE6B00078BAC /* UIImage+Capture.m in Sources */,
-				04D977841CE5DE6B00078BAC /* RealReachability.m in Sources */,
-				04D9776B1CE5DE6B00078BAC /* ReachStateUnReachable.m in Sources */,
 				04D975FE1CE5DE6B00078BAC /* NSString+Judge.m in Sources */,
 				04D9760D1CE5DE6B00078BAC /* UIBezierPath+BasicShapes.m in Sources */,
-				04D977701CE5DE6B00078BAC /* ReachStateWIFI.m in Sources */,
 				04D976531CE5DE6B00078BAC /* UIImage+Color.m in Sources */,
 				04D976171CE5DE6B00078BAC /* UIBezierPath+Symbol.m in Sources */,
 				04D976121CE5DE6B00078BAC /* UIBezierPath+SVG.m in Sources */,
@@ -2506,12 +2349,9 @@
 				04D976F81CE5DE6B00078BAC /* UIWebView+Blocks.m in Sources */,
 				04D9761C1CE5DE6B00078BAC /* UIButton+Block.m in Sources */,
 				04D9771B1CE5DE6B00078BAC /* TranslateInputAccessoryView.m in Sources */,
-				04D977661CE5DE6B00078BAC /* ReachStateUnloaded.m in Sources */,
 				04D975C21CE5DE6B00078BAC /* NSData+Encrypt.m in Sources */,
-				04D977751CE5DE6B00078BAC /* ReachStateWWAN.m in Sources */,
 				04D9766C1CE5DE6B00078BAC /* UIImage+RemoteSize.m in Sources */,
 				04D977251CE5DE6B00078BAC /* UIColor+JCHUColorInfo.m in Sources */,
-				04D9774D1CE5DE6B00078BAC /* LocalConnection.m in Sources */,
 				04D976C61CE5DE6B00078BAC /* UIView+BlockGesture.m in Sources */,
 				04D9763F1CE5DE6B00078BAC /* UIColor+Web.m in Sources */,
 				04D9767B1CE5DE6B00078BAC /* UILabel+SuggestSize.m in Sources */,
@@ -2539,26 +2379,26 @@
 				04D9763C1CE5DE6B00078BAC /* UIColor+Random.m in Sources */,
 				04D977131CE5DE6B00078BAC /* TranslateInputAccessoryCollectionViewCell.m in Sources */,
 				04D976BE1CE5DE6B00078BAC /* UITextView+PlaceHolder.m in Sources */,
-				04D977631CE5DE6B00078BAC /* ReachStateLoading.m in Sources */,
 				04D976961CE5DE6B00078BAC /* UIResponder+Chain.m in Sources */,
+				9D2D57D81F39C24F002A73F9 /* IntroViewController.m in Sources */,
 				04D977091CE5DE6B00078BAC /* UIWindow+Hierarchy.m in Sources */,
 				04D9768C1CE5DE6B00078BAC /* UINavigationController+KeyboardFix.m in Sources */,
 				04D976EB1CE5DE6B00078BAC /* UIViewController+RecursiveDescription.m in Sources */,
-				04D9777C1CE5DE6B00078BAC /* PingFoundation.m in Sources */,
 				04D976371CE5DE6B00078BAC /* UIColor+Modify.m in Sources */,
 				04D975F11CE5DE6B00078BAC /* NSDictionary+SafeAccess.m in Sources */,
 				04D976321CE5DE6B00078BAC /* UIColor+HEX.m in Sources */,
 				04D976911CE5DE6B00078BAC /* UINavigationController+StackManager.m in Sources */,
 				04D976641CE5DE6B00078BAC /* UIImage+Merge.m in Sources */,
 				04D977041CE5DE6B00078BAC /* UIWebView+Style.m in Sources */,
+				9D2D57DF1F3AC9F3002A73F9 /* ImageCollectionCell.m in Sources */,
 				04D976D21CE5DE6B00078BAC /* UIView+Find.m in Sources */,
 				0482A3E81CB1768B00A5FF8D /* AppDelegate.m in Sources */,
+				9D867AA01F2CC191009C4BF0 /* JCHUShowColorView.m in Sources */,
 				04D976AA1CE5DE6B00078BAC /* UISearchBar+Blocks.m in Sources */,
 				04D976B41CE5DE6B00078BAC /* UITableViewCell+NIB.m in Sources */,
 				04D975F61CE5DE6B00078BAC /* MKMapView+ZoomLevel.m in Sources */,
 				04D977361CE5DE6B00078BAC /* ColorCMYKInfo.m in Sources */,
 				04D976461CE5DE6B00078BAC /* UIDevice+Hardware.m in Sources */,
-				04D9775E1CE5DE6B00078BAC /* ReachState.m in Sources */,
 				04D975D81CE5DE6B00078BAC /* NSDate+Utilities.m in Sources */,
 				04D976DC1CE5DE6B00078BAC /* UIView+RecursiveDescription.m in Sources */,
 				04D977311CE5DE6B00078BAC /* JCHUAdHelper.m in Sources */,
@@ -2566,8 +2406,6 @@
 				04D976FF1CE5DE6B00078BAC /* UIWebView+Canvas.m in Sources */,
 				04D976A51CE5DE6B00078BAC /* UIScrollView+Pages.m in Sources */,
 				04D976821CE5DE6B00078BAC /* UINavigationBar+Awesome.m in Sources */,
-				04D977811CE5DE6B00078BAC /* PingHelper.m in Sources */,
-				04D977541CE5DE6B00078BAC /* FSMEngine.m in Sources */,
 				04D975CE1CE5DE6B00078BAC /* NSDate+Extension.m in Sources */,
 				04D9764B1CE5DE6B00078BAC /* UIImage+animatedGIF.m in Sources */,
 				04D975EC1CE5DE6B00078BAC /* NSDictionary+Merge.m in Sources */,
@@ -2578,17 +2416,13 @@
 				04D975E21CE5DE6B00078BAC /* NSDateFormatter+Make.m in Sources */,
 				04811A831D267A24007F46C7 /* JCHUAppHelper.m in Sources */,
 				04D9760A1CE5DE6B00078BAC /* MKMapView+ZoomLevel.m in Sources */,
-				04D977591CE5DE6B00078BAC /* FSMStateUtil.m in Sources */,
 				04D976D71CE5DE6B00078BAC /* UIView+Nib.m in Sources */,
 				04D9765A1CE5DE6B00078BAC /* UIImage+FileName.m in Sources */,
 				04D9773B1CE5DE6B00078BAC /* ColorHexInfo.m in Sources */,
 				04D976F51CE5DE6B00078BAC /* UIWebView+Alert.m in Sources */,
 				04D976501CE5DE6B00078BAC /* UIImage+Capture.m in Sources */,
-				04D977861CE5DE6B00078BAC /* RealReachability.m in Sources */,
-				04D9776D1CE5DE6B00078BAC /* ReachStateUnReachable.m in Sources */,
 				04D976001CE5DE6B00078BAC /* NSString+Judge.m in Sources */,
 				04D9760F1CE5DE6B00078BAC /* UIBezierPath+BasicShapes.m in Sources */,
-				04D977721CE5DE6B00078BAC /* ReachStateWIFI.m in Sources */,
 				04D976551CE5DE6B00078BAC /* UIImage+Color.m in Sources */,
 				04D976191CE5DE6B00078BAC /* UIBezierPath+Symbol.m in Sources */,
 				04D976141CE5DE6B00078BAC /* UIBezierPath+SVG.m in Sources */,
@@ -2605,12 +2439,9 @@
 				04D976FA1CE5DE6B00078BAC /* UIWebView+Blocks.m in Sources */,
 				04D9761E1CE5DE6B00078BAC /* UIButton+Block.m in Sources */,
 				04D9771D1CE5DE6B00078BAC /* TranslateInputAccessoryView.m in Sources */,
-				04D977681CE5DE6B00078BAC /* ReachStateUnloaded.m in Sources */,
 				04D975C41CE5DE6B00078BAC /* NSData+Encrypt.m in Sources */,
-				04D977771CE5DE6B00078BAC /* ReachStateWWAN.m in Sources */,
 				04D9766E1CE5DE6B00078BAC /* UIImage+RemoteSize.m in Sources */,
 				04D977271CE5DE6B00078BAC /* UIColor+JCHUColorInfo.m in Sources */,
-				04D9774F1CE5DE6B00078BAC /* LocalConnection.m in Sources */,
 				04D976C81CE5DE6B00078BAC /* UIView+BlockGesture.m in Sources */,
 				04D976411CE5DE6B00078BAC /* UIColor+Web.m in Sources */,
 				04D9767D1CE5DE6B00078BAC /* UILabel+SuggestSize.m in Sources */,
@@ -2638,26 +2469,26 @@
 				04D9763E1CE5DE6B00078BAC /* UIColor+Random.m in Sources */,
 				04D977151CE5DE6B00078BAC /* TranslateInputAccessoryCollectionViewCell.m in Sources */,
 				04D976C01CE5DE6B00078BAC /* UITextView+PlaceHolder.m in Sources */,
-				04D977651CE5DE6B00078BAC /* ReachStateLoading.m in Sources */,
 				04D976981CE5DE6B00078BAC /* UIResponder+Chain.m in Sources */,
+				9D2D57DA1F39C24F002A73F9 /* IntroViewController.m in Sources */,
 				04D9770B1CE5DE6B00078BAC /* UIWindow+Hierarchy.m in Sources */,
 				04D9768E1CE5DE6B00078BAC /* UINavigationController+KeyboardFix.m in Sources */,
 				04D976ED1CE5DE6B00078BAC /* UIViewController+RecursiveDescription.m in Sources */,
-				04D9777E1CE5DE6B00078BAC /* PingFoundation.m in Sources */,
 				04D976391CE5DE6B00078BAC /* UIColor+Modify.m in Sources */,
 				04D975F31CE5DE6B00078BAC /* NSDictionary+SafeAccess.m in Sources */,
 				04D976341CE5DE6B00078BAC /* UIColor+HEX.m in Sources */,
 				04D976931CE5DE6B00078BAC /* UINavigationController+StackManager.m in Sources */,
 				04D976661CE5DE6B00078BAC /* UIImage+Merge.m in Sources */,
 				04D977061CE5DE6B00078BAC /* UIWebView+Style.m in Sources */,
+				9D2D57E11F3AC9F3002A73F9 /* ImageCollectionCell.m in Sources */,
 				04D976D41CE5DE6B00078BAC /* UIView+Find.m in Sources */,
 				0482A4641CB176A300A5FF8D /* AppDelegate.m in Sources */,
+				9D867AA21F2CC193009C4BF0 /* JCHUShowColorView.m in Sources */,
 				04D976AC1CE5DE6B00078BAC /* UISearchBar+Blocks.m in Sources */,
 				04D976B61CE5DE6B00078BAC /* UITableViewCell+NIB.m in Sources */,
 				04D975F81CE5DE6B00078BAC /* MKMapView+ZoomLevel.m in Sources */,
 				04D977381CE5DE6B00078BAC /* ColorCMYKInfo.m in Sources */,
 				04D976481CE5DE6B00078BAC /* UIDevice+Hardware.m in Sources */,
-				04D977601CE5DE6B00078BAC /* ReachState.m in Sources */,
 				04D975DA1CE5DE6B00078BAC /* NSDate+Utilities.m in Sources */,
 				04D976DE1CE5DE6B00078BAC /* UIView+RecursiveDescription.m in Sources */,
 				04D977331CE5DE6B00078BAC /* JCHUAdHelper.m in Sources */,
@@ -2665,8 +2496,6 @@
 				04D977011CE5DE6B00078BAC /* UIWebView+Canvas.m in Sources */,
 				04D976A71CE5DE6B00078BAC /* UIScrollView+Pages.m in Sources */,
 				04D976841CE5DE6B00078BAC /* UINavigationBar+Awesome.m in Sources */,
-				04D977831CE5DE6B00078BAC /* PingHelper.m in Sources */,
-				04D977561CE5DE6B00078BAC /* FSMEngine.m in Sources */,
 				04D975D01CE5DE6B00078BAC /* NSDate+Extension.m in Sources */,
 				04D9764D1CE5DE6B00078BAC /* UIImage+animatedGIF.m in Sources */,
 				04D975EE1CE5DE6B00078BAC /* NSDictionary+Merge.m in Sources */,
@@ -2677,17 +2506,13 @@
 				04D975E41CE5DE6B00078BAC /* NSDateFormatter+Make.m in Sources */,
 				04811A851D267A24007F46C7 /* JCHUAppHelper.m in Sources */,
 				04D9760C1CE5DE6B00078BAC /* MKMapView+ZoomLevel.m in Sources */,
-				04D9775B1CE5DE6B00078BAC /* FSMStateUtil.m in Sources */,
 				04D976D91CE5DE6B00078BAC /* UIView+Nib.m in Sources */,
 				04D9765C1CE5DE6B00078BAC /* UIImage+FileName.m in Sources */,
 				04D9773D1CE5DE6B00078BAC /* ColorHexInfo.m in Sources */,
 				04D976F71CE5DE6B00078BAC /* UIWebView+Alert.m in Sources */,
 				04D976521CE5DE6B00078BAC /* UIImage+Capture.m in Sources */,
-				04D977881CE5DE6B00078BAC /* RealReachability.m in Sources */,
-				04D9776F1CE5DE6B00078BAC /* ReachStateUnReachable.m in Sources */,
 				04D976021CE5DE6B00078BAC /* NSString+Judge.m in Sources */,
 				04D976111CE5DE6B00078BAC /* UIBezierPath+BasicShapes.m in Sources */,
-				04D977741CE5DE6B00078BAC /* ReachStateWIFI.m in Sources */,
 				04D976571CE5DE6B00078BAC /* UIImage+Color.m in Sources */,
 				04D9761B1CE5DE6B00078BAC /* UIBezierPath+Symbol.m in Sources */,
 				04D976161CE5DE6B00078BAC /* UIBezierPath+SVG.m in Sources */,
@@ -2704,12 +2529,9 @@
 				04D976FC1CE5DE6B00078BAC /* UIWebView+Blocks.m in Sources */,
 				04D976201CE5DE6B00078BAC /* UIButton+Block.m in Sources */,
 				04D9771F1CE5DE6B00078BAC /* TranslateInputAccessoryView.m in Sources */,
-				04D9776A1CE5DE6B00078BAC /* ReachStateUnloaded.m in Sources */,
 				04D975C61CE5DE6B00078BAC /* NSData+Encrypt.m in Sources */,
-				04D977791CE5DE6B00078BAC /* ReachStateWWAN.m in Sources */,
 				04D976701CE5DE6B00078BAC /* UIImage+RemoteSize.m in Sources */,
 				04D977291CE5DE6B00078BAC /* UIColor+JCHUColorInfo.m in Sources */,
-				04D977511CE5DE6B00078BAC /* LocalConnection.m in Sources */,
 				04D976CA1CE5DE6B00078BAC /* UIView+BlockGesture.m in Sources */,
 				04D976431CE5DE6B00078BAC /* UIColor+Web.m in Sources */,
 				04D9767F1CE5DE6B00078BAC /* UILabel+SuggestSize.m in Sources */,
@@ -2737,26 +2559,26 @@
 				04D9763D1CE5DE6B00078BAC /* UIColor+Random.m in Sources */,
 				04D977141CE5DE6B00078BAC /* TranslateInputAccessoryCollectionViewCell.m in Sources */,
 				04D976BF1CE5DE6B00078BAC /* UITextView+PlaceHolder.m in Sources */,
-				04D977641CE5DE6B00078BAC /* ReachStateLoading.m in Sources */,
 				04D976971CE5DE6B00078BAC /* UIResponder+Chain.m in Sources */,
+				9D2D57D91F39C24F002A73F9 /* IntroViewController.m in Sources */,
 				04D9770A1CE5DE6B00078BAC /* UIWindow+Hierarchy.m in Sources */,
 				04D9768D1CE5DE6B00078BAC /* UINavigationController+KeyboardFix.m in Sources */,
 				04D976EC1CE5DE6B00078BAC /* UIViewController+RecursiveDescription.m in Sources */,
-				04D9777D1CE5DE6B00078BAC /* PingFoundation.m in Sources */,
 				04D976381CE5DE6B00078BAC /* UIColor+Modify.m in Sources */,
 				04D975F21CE5DE6B00078BAC /* NSDictionary+SafeAccess.m in Sources */,
 				04D976331CE5DE6B00078BAC /* UIColor+HEX.m in Sources */,
 				04D976921CE5DE6B00078BAC /* UINavigationController+StackManager.m in Sources */,
 				04D976651CE5DE6B00078BAC /* UIImage+Merge.m in Sources */,
 				04D977051CE5DE6B00078BAC /* UIWebView+Style.m in Sources */,
+				9D2D57E01F3AC9F3002A73F9 /* ImageCollectionCell.m in Sources */,
 				04D976D31CE5DE6B00078BAC /* UIView+Find.m in Sources */,
 				0482A4E01CB176BC00A5FF8D /* AppDelegate.m in Sources */,
+				9D867AA11F2CC192009C4BF0 /* JCHUShowColorView.m in Sources */,
 				04D976AB1CE5DE6B00078BAC /* UISearchBar+Blocks.m in Sources */,
 				04D976B51CE5DE6B00078BAC /* UITableViewCell+NIB.m in Sources */,
 				04D975F71CE5DE6B00078BAC /* MKMapView+ZoomLevel.m in Sources */,
 				04D977371CE5DE6B00078BAC /* ColorCMYKInfo.m in Sources */,
 				04D976471CE5DE6B00078BAC /* UIDevice+Hardware.m in Sources */,
-				04D9775F1CE5DE6B00078BAC /* ReachState.m in Sources */,
 				04D975D91CE5DE6B00078BAC /* NSDate+Utilities.m in Sources */,
 				04D976DD1CE5DE6B00078BAC /* UIView+RecursiveDescription.m in Sources */,
 				04D977321CE5DE6B00078BAC /* JCHUAdHelper.m in Sources */,
@@ -2764,8 +2586,6 @@
 				04D977001CE5DE6B00078BAC /* UIWebView+Canvas.m in Sources */,
 				04D976A61CE5DE6B00078BAC /* UIScrollView+Pages.m in Sources */,
 				04D976831CE5DE6B00078BAC /* UINavigationBar+Awesome.m in Sources */,
-				04D977821CE5DE6B00078BAC /* PingHelper.m in Sources */,
-				04D977551CE5DE6B00078BAC /* FSMEngine.m in Sources */,
 				04D975CF1CE5DE6B00078BAC /* NSDate+Extension.m in Sources */,
 				04D9764C1CE5DE6B00078BAC /* UIImage+animatedGIF.m in Sources */,
 				04D975ED1CE5DE6B00078BAC /* NSDictionary+Merge.m in Sources */,
@@ -2776,17 +2596,13 @@
 				04D975E31CE5DE6B00078BAC /* NSDateFormatter+Make.m in Sources */,
 				04811A841D267A24007F46C7 /* JCHUAppHelper.m in Sources */,
 				04D9760B1CE5DE6B00078BAC /* MKMapView+ZoomLevel.m in Sources */,
-				04D9775A1CE5DE6B00078BAC /* FSMStateUtil.m in Sources */,
 				04D976D81CE5DE6B00078BAC /* UIView+Nib.m in Sources */,
 				04D9765B1CE5DE6B00078BAC /* UIImage+FileName.m in Sources */,
 				04D9773C1CE5DE6B00078BAC /* ColorHexInfo.m in Sources */,
 				04D976F61CE5DE6B00078BAC /* UIWebView+Alert.m in Sources */,
 				04D976511CE5DE6B00078BAC /* UIImage+Capture.m in Sources */,
-				04D977871CE5DE6B00078BAC /* RealReachability.m in Sources */,
-				04D9776E1CE5DE6B00078BAC /* ReachStateUnReachable.m in Sources */,
 				04D976011CE5DE6B00078BAC /* NSString+Judge.m in Sources */,
 				04D976101CE5DE6B00078BAC /* UIBezierPath+BasicShapes.m in Sources */,
-				04D977731CE5DE6B00078BAC /* ReachStateWIFI.m in Sources */,
 				04D976561CE5DE6B00078BAC /* UIImage+Color.m in Sources */,
 				04D9761A1CE5DE6B00078BAC /* UIBezierPath+Symbol.m in Sources */,
 				04D976151CE5DE6B00078BAC /* UIBezierPath+SVG.m in Sources */,
@@ -2803,12 +2619,9 @@
 				04D976FB1CE5DE6B00078BAC /* UIWebView+Blocks.m in Sources */,
 				04D9761F1CE5DE6B00078BAC /* UIButton+Block.m in Sources */,
 				04D9771E1CE5DE6B00078BAC /* TranslateInputAccessoryView.m in Sources */,
-				04D977691CE5DE6B00078BAC /* ReachStateUnloaded.m in Sources */,
 				04D975C51CE5DE6B00078BAC /* NSData+Encrypt.m in Sources */,
-				04D977781CE5DE6B00078BAC /* ReachStateWWAN.m in Sources */,
 				04D9766F1CE5DE6B00078BAC /* UIImage+RemoteSize.m in Sources */,
 				04D977281CE5DE6B00078BAC /* UIColor+JCHUColorInfo.m in Sources */,
-				04D977501CE5DE6B00078BAC /* LocalConnection.m in Sources */,
 				04D976C91CE5DE6B00078BAC /* UIView+BlockGesture.m in Sources */,
 				04D976421CE5DE6B00078BAC /* UIColor+Web.m in Sources */,
 				04D9767E1CE5DE6B00078BAC /* UILabel+SuggestSize.m in Sources */,
@@ -2835,6 +2648,7 @@
 				04F14B891CC9301300A677A5 /* TodayViewController.m in Sources */,
 				04D978451CE5DEDA00078BAC /* NSString+Judge.m in Sources */,
 				04D978461CE5DEDA00078BAC /* UIImage+ImageUtil.m in Sources */,
+				9D867AA31F2CC194009C4BF0 /* JCHUShowColorView.m in Sources */,
 				04D978441CE5DEDA00078BAC /* NSString+Convert.m in Sources */,
 				04D9787B1CE5DEDA00078BAC /* UIView+Shortcut.m in Sources */,
 			);
@@ -2888,6 +2702,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors/GoogleMobileAdsSdkiOS-7.6.0",
+					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorExpert/ColorExpert-Prefix.pch";
@@ -2938,6 +2753,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors/GoogleMobileAdsSdkiOS-7.6.0",
+					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorExpert/ColorExpert-Prefix.pch";
@@ -2989,6 +2805,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors/GoogleMobileAdsSdkiOS-7.6.0",
+					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorExpert/ColorExpert-Prefix.pch";
@@ -3040,6 +2857,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors/GoogleMobileAdsSdkiOS-7.6.0",
+					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorExpert/ColorExpert-Prefix.pch";
@@ -3090,6 +2908,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors/GoogleMobileAdsSdkiOS-7.6.0",
+					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorExpert/ColorExpert-Prefix.pch";
@@ -3140,6 +2959,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors/GoogleMobileAdsSdkiOS-7.6.0",
+					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorExpert/ColorExpert-Prefix.pch";
@@ -3190,6 +3010,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors/GoogleMobileAdsSdkiOS-7.6.0",
+					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorExpert/ColorExpert-Prefix.pch";
@@ -3240,6 +3061,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors/GoogleMobileAdsSdkiOS-7.6.0",
+					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorExpert/ColorExpert-Prefix.pch";
@@ -3290,6 +3112,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors/GoogleMobileAdsSdkiOS-7.6.0",
+					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorExpert/ColorExpert-Prefix.pch";
@@ -3340,6 +3163,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors/GoogleMobileAdsSdkiOS-7.6.0",
+					"$(PROJECT_DIR)/ColorExpert/Classes/Vendors",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorExpert/ColorExpert-Prefix.pch";

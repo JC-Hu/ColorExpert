@@ -7,9 +7,10 @@
 //
 
 #import "JCHUAdHelper.h"
-#import "RealReachability.h"
 #import "NSDate+Utilities.h"
 #import "JCHUAppHelper.h"
+
+#import <UnityAds/UnityAds.h>
 
 @import GoogleMobileAds;
 
@@ -158,6 +159,18 @@ didFailToReceiveAdWithError:(GADRequestError *)error {
 {
     BOOL removed = [[NSUserDefaults standardUserDefaults] boolForKey:REMOVE_AD_KEY];
     
+    if (!removed) {
+        
+        id obj = [[NSUserDefaults standardUserDefaults] objectForKey:REMOVE_AD_TILL_TIME_KEY];
+        if (obj) {
+            NSTimeInterval interval = [obj doubleValue];
+            
+            NSDate *date = [NSDate dateWithTimeIntervalSince1970:interval];
+            
+            removed = ([date timeIntervalSinceNow] > 0);
+        }
+    }
+    
     return removed;
 }
 
@@ -180,6 +193,18 @@ didFailToReceiveAdWithError:(GADRequestError *)error {
     [[NSNotificationCenter defaultCenter] postNotificationName:AdRemovedNotificationName object:nil];
 }
 
+/// 去除广告多少分钟
+- (void)removeAdForMinutes:(double)minutes
+{
+    double time = [[NSDate date] timeIntervalSince1970] + minutes * 60.0;
+    
+    [[NSUserDefaults standardUserDefaults] setObject:@(time) forKey:REMOVE_AD_TILL_TIME_KEY];
+    
+    [[NSUserDefaults standardUserDefaults] synchronize];
+
+    [[NSNotificationCenter defaultCenter] postNotificationName:AdRemovedNotificationName object:nil];
+}
+
 
 #pragma mark - 好评去广告流程
 - (void)processRateAndRemoveAd
@@ -196,17 +221,17 @@ didFailToReceiveAdWithError:(GADRequestError *)error {
     // 提示
     [self.processAlert show];
     
-    ReachabilityStatus status = [GLobalRealReachability currentReachabilityStatus];
-    if (status == RealStatusNotReachable) {
-        // 无网络
-        [self.processAlert dismissWithClickedButtonIndex:0 animated:YES];
-        
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Lost Connection" message:@"Please check network connection" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Try Again", nil];
-        
-        [alert show];
-        
-        return;
-    }
+//    ReachabilityStatus status = [GLobalRealReachability currentReachabilityStatus];
+//    if (status == RealStatusNotReachable) {
+//        // 无网络
+//        [self.processAlert dismissWithClickedButtonIndex:0 animated:YES];
+//
+//        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Lost Connection" message:@"Please check network connection" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Try Again", nil];
+//
+//        [alert show];
+//
+//        return;
+//    }
     
     // 假延迟
     CGFloat delay = (arc4random()%40 + 20)/10.0;
@@ -214,16 +239,16 @@ didFailToReceiveAdWithError:(GADRequestError *)error {
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delay * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         
         
-        if (status == RealStatusNotReachable) {
-            // 无网络
-            [self.processAlert dismissWithClickedButtonIndex:0 animated:YES];
-            
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Lost Connection" message:@"Please check network connection" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Try Again", nil];
-            
-            [alert show];
-            
-        } else {
-            
+//        if (status == RealStatusNotReachable) {
+//            // 无网络
+//            [self.processAlert dismissWithClickedButtonIndex:0 animated:YES];
+//
+//            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Lost Connection" message:@"Please check network connection" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Try Again", nil];
+//
+//            [alert show];
+//
+//        } else {
+        
             
             
             [self.processAlert dismissWithClickedButtonIndex:0 animated:YES];
@@ -246,7 +271,7 @@ didFailToReceiveAdWithError:(GADRequestError *)error {
                 
             }
             
-        }
+//        }
     });
 }
 

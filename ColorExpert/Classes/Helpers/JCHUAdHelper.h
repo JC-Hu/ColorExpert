@@ -38,6 +38,9 @@ extern NSString *const AdRemovedNotificationName;
 /// 去除广告
 - (void)removeAd;
 
+/// 去除广告多少分钟
+- (void)removeAdForMinutes:(double)minutes;
+
 #pragma mark - 好评去广告流程
 - (void)processRateAndRemoveAd;
 
