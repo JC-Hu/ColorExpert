@@ -10,6 +10,7 @@
 #import "TranslateInputAccessoryView.h"
 #import "IQKeyboardManager.h"
 #import "JCHUAdHelper.h"
+#import "JHHintManager.h"
 
 #import "UIImage+Color.h"
 #import <UnityAds/UnityAds.h>
@@ -53,7 +54,9 @@
 
 // Nav
 @property (strong, nonatomic) IBOutlet UIButton *switchButton;
+@property (nonatomic, strong) UIView *switchButtonReddotView;
 @property (nonatomic, strong) UIBarButtonItem *removeAdBarButton;
+@property (nonatomic, strong) UIView *removeAdBarButtonReddotView;
 
 
 // banner Ad
@@ -127,7 +130,9 @@
         }];
     }
     
-    [self.formSegmentedControl setSelectedSegmentIndex:[ColorExpertHelper productType] ? ([ColorExpertHelper productType] - 1): 0];
+    NSNumber *type = [ColorExpertHelper preferColorFormType];
+    
+    [self.formSegmentedControl setSelectedSegmentIndex:type ? type.integerValue: 0];
     [self formSegmentedControlChanged:nil];
     
     [self colorUpdated];
@@ -151,6 +156,29 @@
     self.switchButton.layer.borderColor = self.switchButton.tintColor.CGColor;
     self.switchButton.layer.borderWidth = 1;
     self.switchButton.layer.cornerRadius = 4;
+    
+    [self.switchButton addSubview:self.switchButtonReddotView];
+    CGFloat width = 6;
+    [self.switchButtonReddotView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.width.height.mas_equalTo(width);
+        make.right.mas_equalTo(-2);
+        make.top.mas_equalTo(2);
+    }];
+    self.switchButtonReddotView.layer.cornerRadius = width/2;
+    
+    self.switchButtonReddotView.hidden = ![JHHintManager shouldShowHintForPoint:JHHintPointSwithFormButton];
+    
+    // RemoveAd
+    [self.removeAdBarButton.customView addSubview:self.removeAdBarButtonReddotView];
+    [self.removeAdBarButtonReddotView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.width.height.mas_equalTo(width);
+        make.right.mas_equalTo(0);
+        make.top.mas_equalTo(0);
+    }];
+    self.removeAdBarButtonReddotView.layer.cornerRadius = width/2;
+    
+    self.removeAdBarButtonReddotView.hidden = ![JHHintManager shouldShowHintForPoint:JHHintPointRemoveAdButton];
+    
 }
 
 - (void)requestBannerAd
@@ -181,6 +209,8 @@
     [self.view layoutIfNeeded];
 
     ColorFormType type = self.formSegmentedControl.selectedSegmentIndex;
+    
+    [ColorExpertHelper savePreferColorFormType:type];
 
     self.navigationItem.titleView = self.switchButton;
     [self.switchButton setTitle:[self formNameForType: type] forState:UIControlStateNormal];
@@ -242,6 +272,9 @@
 {
     [self.navigationItem setTitleView:self.formSegmentedControl];
     
+    [JHHintManager haveReadHintForPoint:JHHintPointSwithFormButton];
+    self.switchButtonReddotView.hidden = ![JHHintManager shouldShowHintForPoint:JHHintPointSwithFormButton];
+    
 }
 
 - (void)removeAdBarButtonAction:(id)sender
@@ -254,6 +287,10 @@
                           otherButtonTitles:@"Download pro",@"Watch a video", nil];
     alert.delegate = self;
     [alert show];
+    
+    [JHHintManager haveReadHintForPoint:JHHintPointRemoveAdButton];
+    self.removeAdBarButtonReddotView.hidden = ![JHHintManager shouldShowHintForPoint:JHHintPointRemoveAdButton];
+
 }
 
 - (void)moreBarButtonAction:(id)sender
@@ -550,9 +587,11 @@
     self.formSegmentedControl.selectedSegmentIndex = formType;
     [self formSegmentedControlChanged:nil];
 
-    self.color = [UIColor colorWithString:colorString formType:formType];
-    
-    [self colorUpdated];
+    if (colorString) {
+        self.color = [UIColor colorWithString:colorString formType:formType];
+        
+        [self colorUpdated];
+    }
     
     [self.view endEditing:YES];
 }
@@ -645,9 +684,31 @@
 - (UIBarButtonItem *)removeAdBarButton
 {
     if (!_removeAdBarButton) {
-        _removeAdBarButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"remove_ad"] style:UIBarButtonItemStylePlain target:self action:@selector(removeAdBarButtonAction:)];
+        UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+        [button setImage:[UIImage imageNamed:@"remove_ad"] forState:UIControlStateNormal];
+        button.size = [button imageForState:UIControlStateNormal].size;
+        [button addTarget:self action:@selector(removeAdBarButtonAction:) forControlEvents:UIControlEventTouchUpInside];
+        _removeAdBarButton = [[UIBarButtonItem alloc] initWithCustomView:button];
     }
     return _removeAdBarButton;
+}
+
+- (UIView *)switchButtonReddotView
+{
+    if (!_switchButtonReddotView) {
+        _switchButtonReddotView = [[UIView alloc] initWithFrame:CGRectZero];
+        _switchButtonReddotView.backgroundColor = [UIColor redColor];
+    }
+    return _switchButtonReddotView;
+}
+
+- (UIView *)removeAdBarButtonReddotView
+{
+    if (!_removeAdBarButtonReddotView) {
+        _removeAdBarButtonReddotView = [[UIView alloc] initWithFrame:CGRectZero];
+        _removeAdBarButtonReddotView.backgroundColor = [UIColor redColor];
+    }
+    return _removeAdBarButtonReddotView;
 }
 
 @end

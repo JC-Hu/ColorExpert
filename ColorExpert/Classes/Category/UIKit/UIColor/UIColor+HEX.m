@@ -21,7 +21,7 @@ CGFloat colorComponentFrom(NSString *string, NSUInteger start, NSUInteger length
     return [UIColor colorWithHex:hex andAlpha:1];
 }
 + (UIColor *)colorWithHex:(UInt32)hex andAlpha:(CGFloat)alpha{
-    return [UIColor colorWithDisplayP3Red:((hex >> 16) & 0xFF)/255.0
+    return [UIColor colorWithRed:((hex >> 16) & 0xFF)/255.0
                            green:((hex >> 8) & 0xFF)/255.0
                             blue:(hex & 0xFF)/255.0
                            alpha:alpha];
@@ -63,14 +63,14 @@ CGFloat colorComponentFrom(NSString *string, NSUInteger start, NSUInteger length
         default:
             return nil;
     }
-    return [UIColor colorWithDisplayP3Red:red green:green blue:blue alpha:alpha];
+    return [UIColor colorWithRed:red green:green blue:blue alpha:alpha];
 }
 
 - (NSString *)HEXString{
     UIColor* color = self;
     if (CGColorGetNumberOfComponents(color.CGColor) < 4) {
         const CGFloat *components = CGColorGetComponents(color.CGColor);
-        color = [UIColor colorWithDisplayP3Red:components[0]
+        color = [UIColor colorWithRed:components[0]
                                 green:components[0]
                                  blue:components[0]
                                 alpha:components[1]];

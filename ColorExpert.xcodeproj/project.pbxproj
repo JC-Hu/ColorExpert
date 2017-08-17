@@ -531,6 +531,11 @@
 		9D9031F41DC1A66000F23017 /* ColorExpert-CMYK copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D9031EF1DC1A66000F23017 /* ColorExpert-CMYK copy-Info.plist */; };
 		9D9031F51DC1A66000F23017 /* ColorExpert-H2R copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D9031F01DC1A66000F23017 /* ColorExpert-H2R copy-Info.plist */; };
 		9D9031F61DC1A66000F23017 /* ColorExpert-R2H copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D9031F11DC1A66000F23017 /* ColorExpert-R2H copy-Info.plist */; };
+		9DB535E71F443484006FF308 /* JHHintManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB535E61F443484006FF308 /* JHHintManager.m */; };
+		9DB535E81F443484006FF308 /* JHHintManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB535E61F443484006FF308 /* JHHintManager.m */; };
+		9DB535E91F443484006FF308 /* JHHintManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB535E61F443484006FF308 /* JHHintManager.m */; };
+		9DB535EA1F443484006FF308 /* JHHintManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB535E61F443484006FF308 /* JHHintManager.m */; };
+		9DB535EB1F443484006FF308 /* JHHintManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB535E61F443484006FF308 /* JHHintManager.m */; };
 		9DDD47041F38488600964BBA /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDD47031F38477B00964BBA /* UnityAds.framework */; };
 		9DDD47051F38488600964BBA /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDD47031F38477B00964BBA /* UnityAds.framework */; };
 		9DDD47061F38488700964BBA /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDD47031F38477B00964BBA /* UnityAds.framework */; };
@@ -829,6 +834,8 @@
 		9D9031EF1DC1A66000F23017 /* ColorExpert-CMYK copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ColorExpert-CMYK copy-Info.plist"; sourceTree = "<group>"; };
 		9D9031F01DC1A66000F23017 /* ColorExpert-H2R copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ColorExpert-H2R copy-Info.plist"; sourceTree = "<group>"; };
 		9D9031F11DC1A66000F23017 /* ColorExpert-R2H copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ColorExpert-R2H copy-Info.plist"; sourceTree = "<group>"; };
+		9DB535E51F443484006FF308 /* JHHintManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHintManager.h; sourceTree = "<group>"; };
+		9DB535E61F443484006FF308 /* JHHintManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHintManager.m; sourceTree = "<group>"; };
 		9DDD47031F38477B00964BBA /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
 		A07F1B2837C66F4F3BAF4304 /* libPods-ColorExpert-Today.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorExpert-Today.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1AE4C12C6CE4C0E1E5D4B75 /* Pods-ColorExpert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorExpert.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorExpert/Pods-ColorExpert.release.xcconfig"; sourceTree = "<group>"; };
@@ -1527,6 +1534,8 @@
 				04811A801D267A24007F46C7 /* JCHUAppHelper.m */,
 				04D975891CE5DE6B00078BAC /* JCHUAdHelper.h */,
 				04D9758A1CE5DE6B00078BAC /* JCHUAdHelper.m */,
+				9DB535E51F443484006FF308 /* JHHintManager.h */,
+				9DB535E61F443484006FF308 /* JHHintManager.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1828,10 +1837,10 @@
 			projectRoot = "";
 			targets = (
 				04313CB31CB175C9006C1792 /* ColorExpert */,
+				0482A4371CB176A300A5FF8D /* ColorExpert-CMYK */,
 				04313C371CB17565006C1792 /* ColorExpert-R2H */,
 				0482A3BB1CB1768B00A5FF8D /* ColorExpert-H2R */,
 				0482A4B31CB176BC00A5FF8D /* ColorExpert-HSB */,
-				0482A4371CB176A300A5FF8D /* ColorExpert-CMYK */,
 				04F14B831CC9301300A677A5 /* ColorExpert-Today */,
 			);
 		};
@@ -2189,6 +2198,7 @@
 			files = (
 				04D976771CE5DE6B00078BAC /* UILabel+ESAdjustableLabel.m in Sources */,
 				04D976681CE5DE6B00078BAC /* UIImage+Orientation.m in Sources */,
+				9DB535E91F443484006FF308 /* JHHintManager.m in Sources */,
 				04D975D21CE5DE6B00078BAC /* NSDate+TimeAgo.m in Sources */,
 				04D976B81CE5DE6B00078BAC /* UITextField+Blocks.m in Sources */,
 				04D976E01CE5DE6B00078BAC /* UIView+Screenshot.m in Sources */,
@@ -2279,6 +2289,7 @@
 			files = (
 				04D976761CE5DE6B00078BAC /* UILabel+ESAdjustableLabel.m in Sources */,
 				04D976671CE5DE6B00078BAC /* UIImage+Orientation.m in Sources */,
+				9DB535E71F443484006FF308 /* JHHintManager.m in Sources */,
 				04D975D11CE5DE6B00078BAC /* NSDate+TimeAgo.m in Sources */,
 				04D976B71CE5DE6B00078BAC /* UITextField+Blocks.m in Sources */,
 				04D976DF1CE5DE6B00078BAC /* UIView+Screenshot.m in Sources */,
@@ -2369,6 +2380,7 @@
 			files = (
 				04D976781CE5DE6B00078BAC /* UILabel+ESAdjustableLabel.m in Sources */,
 				04D976691CE5DE6B00078BAC /* UIImage+Orientation.m in Sources */,
+				9DB535EA1F443484006FF308 /* JHHintManager.m in Sources */,
 				04D975D31CE5DE6B00078BAC /* NSDate+TimeAgo.m in Sources */,
 				04D976B91CE5DE6B00078BAC /* UITextField+Blocks.m in Sources */,
 				04D976E11CE5DE6B00078BAC /* UIView+Screenshot.m in Sources */,
@@ -2459,6 +2471,7 @@
 			files = (
 				04D9767A1CE5DE6B00078BAC /* UILabel+ESAdjustableLabel.m in Sources */,
 				04D9766B1CE5DE6B00078BAC /* UIImage+Orientation.m in Sources */,
+				9DB535E81F443484006FF308 /* JHHintManager.m in Sources */,
 				04D975D51CE5DE6B00078BAC /* NSDate+TimeAgo.m in Sources */,
 				04D976BB1CE5DE6B00078BAC /* UITextField+Blocks.m in Sources */,
 				04D976E31CE5DE6B00078BAC /* UIView+Screenshot.m in Sources */,
@@ -2549,6 +2562,7 @@
 			files = (
 				04D976791CE5DE6B00078BAC /* UILabel+ESAdjustableLabel.m in Sources */,
 				04D9766A1CE5DE6B00078BAC /* UIImage+Orientation.m in Sources */,
+				9DB535EB1F443484006FF308 /* JHHintManager.m in Sources */,
 				04D975D41CE5DE6B00078BAC /* NSDate+TimeAgo.m in Sources */,
 				04D976BA1CE5DE6B00078BAC /* UITextField+Blocks.m in Sources */,
 				04D976E21CE5DE6B00078BAC /* UIView+Screenshot.m in Sources */,
@@ -3004,7 +3018,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 66DF3CDEB2AAEACA18B4FD0B /* Pods-ColorExpert-CMYK.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-CMYK";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-R2H";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3055,7 +3069,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 252FB8A1377900EDF06497DF /* Pods-ColorExpert-CMYK.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-CMYK";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-R2H";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (

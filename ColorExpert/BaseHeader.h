@@ -19,6 +19,7 @@
 #import "UIColor+HEX.h"
 #import "NSString+Judge.h"
 #import "JCHUAppHelper.h"
+#import "Masonry.h"
 
 
 

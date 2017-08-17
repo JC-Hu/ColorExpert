@@ -13,14 +13,17 @@
 #define kNotificationOfColorDataAdded @"colorDataAdded"
 
 // Colors
-#define kColorOfPurple [UIColor colorWithDisplayP3Red:72/255.0 green:0/255.0 blue:169/255.0 alpha:1]
+#define kColorOfPurple [UIColor colorWithRed:72/255.0 green:0/255.0 blue:169/255.0 alpha:1]
 
 
 // Userdefault Key
 #define REMOVE_AD_KEY @"removeAdKey"
 #define LAST_AD_SHOW_TIME_KEY @"lastAdShowTimeKey"
 #define REMOVE_AD_TILL_TIME_KEY @"lastAdShowTimeKey"
+#define USER_PREFER_FORM_KEY @"userPreferFormType"
 
+
+// cloud
 #define CLOUD_RATE_AND_REMOVE_AD @"cloudRateAndRemoveAdKey"
 #define CLOUD_AD_UNIT_ID @"cloudAdUnitId"
 #define CLOUD_AD_SHOULD_SHOW @"cloudAdShouldShow"

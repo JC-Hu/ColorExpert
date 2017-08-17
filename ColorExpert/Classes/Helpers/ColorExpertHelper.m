@@ -7,7 +7,7 @@
 //
 
 #import "ColorExpertHelper.h"
-
+#import "Macro.h"
 @implementation ColorExpertHelper
 
 + (NSString *)UMAppKey
@@ -160,5 +160,19 @@
     return ColorExpertProductTypeNormal;
 #endif
 }
+
++ (NSNumber *)preferColorFormType
+{
+    return [[NSUserDefaults standardUserDefaults] objectForKey:USER_PREFER_FORM_KEY];
+}
+
++ (void)savePreferColorFormType:(ColorFormType)type
+{
+    [[NSUserDefaults standardUserDefaults] setObject:@(type) forKey:USER_PREFER_FORM_KEY];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+
+
 
 @end

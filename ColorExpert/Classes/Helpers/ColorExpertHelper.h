@@ -32,4 +32,9 @@ typedef enum : NSUInteger {
 + (NSString *)GoogleAdID;
 + (ColorExpertProductType)productType;
 + (NSString *)appID;
+
++ (NSNumber *)preferColorFormType;
++ (void)savePreferColorFormType:(ColorFormType)type;
+
+
 @end
