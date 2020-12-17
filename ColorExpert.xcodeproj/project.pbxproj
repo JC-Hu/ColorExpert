@@ -1667,7 +1667,6 @@
 				04313C971CB17565006C1792 /* Frameworks */,
 				04313CA21CB17565006C1792 /* Resources */,
 				04313CAA1CB17565006C1792 /* Embed App Extensions */,
-				F472A4D37C5B9C0C399D1FA3 /* [CP] Embed Pods Frameworks */,
 				D0D6F0CF2CC01AB0B5E92EF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -1688,7 +1687,6 @@
 				04313D131CB175C9006C1792 /* Frameworks */,
 				04313D1E1CB175C9006C1792 /* Resources */,
 				04313D261CB175C9006C1792 /* Embed App Extensions */,
-				51A602FCF632848C0A7EFE18 /* [CP] Embed Pods Frameworks */,
 				5F62514308B4BBAFC8249AF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -1710,7 +1708,6 @@
 				0482A41B1CB1768B00A5FF8D /* Frameworks */,
 				0482A4261CB1768B00A5FF8D /* Resources */,
 				0482A42E1CB1768B00A5FF8D /* Embed App Extensions */,
-				5038C7A01AF613BD6DB4AD3A /* [CP] Embed Pods Frameworks */,
 				303B288531B60B8FFAB5F8EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -1731,7 +1728,6 @@
 				0482A4971CB176A300A5FF8D /* Frameworks */,
 				0482A4A21CB176A300A5FF8D /* Resources */,
 				0482A4AA1CB176A300A5FF8D /* Embed App Extensions */,
-				62B90F8B0AE119D0A90D5F3D /* [CP] Embed Pods Frameworks */,
 				21B798BBB951975B3AEDDF03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -1752,7 +1748,6 @@
 				0482A5131CB176BC00A5FF8D /* Frameworks */,
 				0482A51E1CB176BC00A5FF8D /* Resources */,
 				0482A5261CB176BC00A5FF8D /* Embed App Extensions */,
-				E9682C13814D448D508DFE8C /* [CP] Embed Pods Frameworks */,
 				FA3F17DCCFE8B5117294B5FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -1772,7 +1767,6 @@
 				04F14B801CC9301300A677A5 /* Sources */,
 				04F14B811CC9301300A677A5 /* Frameworks */,
 				04F14B821CC9301300A677A5 /* Resources */,
-				DE2DC97EFC9AD5074D65383A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1828,6 +1822,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1940,17 +1935,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-CMYK/Pods-ColorExpert-CMYK-resources.sh",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-ColorExpert-CMYK/Pods-ColorExpert-CMYK-resources.sh",
 				"${PODS_ROOT}/SIAlertView/SIAlertView/SIAlertView.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SIAlertView.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-CMYK/Pods-ColorExpert-CMYK-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ColorExpert-CMYK/Pods-ColorExpert-CMYK-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2FC6B12C5C79080E65262160 /* [CP] Check Pods Manifest.lock */ = {
@@ -1977,47 +1971,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-H2R/Pods-ColorExpert-H2R-resources.sh",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-ColorExpert-H2R/Pods-ColorExpert-H2R-resources.sh",
 				"${PODS_ROOT}/SIAlertView/SIAlertView/SIAlertView.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SIAlertView.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-H2R/Pods-ColorExpert-H2R-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5038C7A01AF613BD6DB4AD3A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-H2R/Pods-ColorExpert-H2R-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		51A602FCF632848C0A7EFE18 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert/Pods-ColorExpert-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ColorExpert-H2R/Pods-ColorExpert-H2R-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5F62514308B4BBAFC8249AF0 /* [CP] Copy Pods Resources */ = {
@@ -2026,32 +1989,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert/Pods-ColorExpert-resources.sh",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-ColorExpert/Pods-ColorExpert-resources.sh",
 				"${PODS_ROOT}/SIAlertView/SIAlertView/SIAlertView.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SIAlertView.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert/Pods-ColorExpert-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		62B90F8B0AE119D0A90D5F3D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-CMYK/Pods-ColorExpert-CMYK-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ColorExpert/Pods-ColorExpert-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		75833DFB6849AC7566837EC7 /* [CP] Check Pods Manifest.lock */ = {
@@ -2132,62 +2079,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-R2H/Pods-ColorExpert-R2H-resources.sh",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-ColorExpert-R2H/Pods-ColorExpert-R2H-resources.sh",
 				"${PODS_ROOT}/SIAlertView/SIAlertView/SIAlertView.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SIAlertView.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-R2H/Pods-ColorExpert-R2H-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DE2DC97EFC9AD5074D65383A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-Today/Pods-ColorExpert-Today-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E9682C13814D448D508DFE8C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-HSB/Pods-ColorExpert-HSB-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F472A4D37C5B9C0C399D1FA3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-R2H/Pods-ColorExpert-R2H-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ColorExpert-R2H/Pods-ColorExpert-R2H-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FA3F17DCCFE8B5117294B5FB /* [CP] Copy Pods Resources */ = {
@@ -2196,17 +2097,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-HSB/Pods-ColorExpert-HSB-resources.sh",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-ColorExpert-HSB/Pods-ColorExpert-HSB-resources.sh",
 				"${PODS_ROOT}/SIAlertView/SIAlertView/SIAlertView.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SIAlertView.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorExpert-HSB/Pods-ColorExpert-HSB-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ColorExpert-HSB/Pods-ColorExpert-HSB-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FBCFC2627CEF5850F81A1CF3 /* [CP] Check Pods Manifest.lock */ = {
@@ -2750,6 +2650,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-R2H";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = GLG6FGTY6V;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2801,6 +2702,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-R2H";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = GLG6FGTY6V;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2853,6 +2755,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ColorExpert/ColorExpert.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_TEAM = GLG6FGTY6V;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2864,6 +2768,7 @@
 				INFOPLIST_FILE = "ColorExpert copy2-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.11;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-isystem",
@@ -2905,6 +2810,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ColorExpert/ColorExpert.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_TEAM = GLG6FGTY6V;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2916,6 +2823,7 @@
 				INFOPLIST_FILE = "ColorExpert copy2-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.11;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-isystem",
@@ -2956,6 +2864,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-H2R";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = GLG6FGTY6V;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3007,6 +2916,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-H2R";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = GLG6FGTY6V;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3058,6 +2968,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-R2H";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = GLG6FGTY6V;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3069,6 +2980,7 @@
 				INFOPLIST_FILE = "ColorExpert-H2R copy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.21;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-isystem",
@@ -3109,6 +3021,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-R2H";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = GLG6FGTY6V;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3120,6 +3033,7 @@
 				INFOPLIST_FILE = "ColorExpert-H2R copy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.21;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-isystem",
@@ -3160,6 +3074,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-HSB";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = GLG6FGTY6V;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3211,6 +3126,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-HSB";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = GLG6FGTY6V;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

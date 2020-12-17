@@ -10,6 +10,7 @@
 #import "IQKeyboardManager.h"
 #import <UMMobClick/MobClick.h>
 #import <FirebaseAnalytics/FirebaseAnalytics.h>
+#import "FIRApp.h"
 #import "JCHUAdHelper.h"
 
 #import "ViewController.h"
